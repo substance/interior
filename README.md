@@ -1,4 +1,4 @@
-Poole Bootstrap
+Substance
 =================
 
-A minimal template to get started with Jekyll and Poole.
+Substance home.
