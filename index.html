@@ -1,26 +1,20 @@
 ---
 layout: default
+permalink: /
 ---
 
-<div class="article-navigation">
-  {% for item in site.categories.modules limit:40 offset:0 %}
-    <a class="article-link" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-      
-    </a>
-  {% endfor %}
+<div class="start">
+  {% include menu.html %}
+  <div class="plot">
+    <p>
+      <strong>Substance</strong> is an open platform for collaborative composition and publication of digital documents, targeting journalists, writers and scientists. It is intended to be an open source technology stack, not a product.
+    </p>
+    <p>
+      We’ll be providing a flexible architecture, involving an extensible document format and protocol, realtime synchronization, a framework for building content composition tools for the browser as well as a reference implementation.
+    </p>
+  </div>
 </div>
 
-{% for item in site.categories.modules limit:1 offset:0 %}
-  <div class="intro">
-    <div class="title">{{item.title}}</div>
-    <div class="abstract">{{item.abstract}}</div>
-    <div class="meta"> Posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </div>
-  </div>
-
-  <div class="article-wrapper">
-    <div class="help post-content">
-      {{ item.content }}
-    </div>
-  </div>
-{% endfor %}
-
+<div class="start-facts">
+  <h1>Content is data</h1>
+</div>

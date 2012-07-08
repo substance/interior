@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="modules">
+<div class="features">
   {% include menu.html %}
   <div class="article-navigation">
-    {% for item in site.categories.modules reversed limit:40 offset:0 %}
+    {% for item in site.categories.features reversed limit:40 offset:0 %}
       <a class="article-link{% if page.title == item.title %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
         
       </a>
@@ -16,15 +16,7 @@ layout: default
 <div class="intro">
   <div class="title">{{page.title}}</div>
   <div class="abstract">{{page.abstract}}</div>
-
-  <div class="meta">
-    Contributors:
-    {% for item in page.contributors %}
-      <a class="article-link" href="http://github.com/{{item.username}}">
-        {{ item.name }}
-      </a>
-    {% endfor %}
-  </div>
+  
   <!--<div class="meta"> Posted by <a href="http://twitter.com/{{page.author_twitter}}">{{page.author}}</a> on {{ page.date | date: "%B %d, %Y" }} </div>-->
 </div>
 

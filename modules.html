@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /modules/
+---
+
+<div class="modules">
+  {% include menu.html %}
+  <div class="article-navigation">
+    {% for item in site.categories.modules reversed limit:1 offset:0 %}
+      <a class="article-link active" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+        
+      </a>
+    {% endfor %}   
+    {% for item in site.categories.modules reversed limit:40 offset:1 %}
+      <a class="article-link" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+        {{}}
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% for item in site.categories.modules reversed limit:1 offset:0 %}
+  <div class="intro">
+    <div class="title">{{item.title}}</div>
+    <div class="abstract">{{item.abstract}}</div>
+    <div class="meta"> Posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </div>
+  </div>
+
+  <div class="article-wrapper">
+    <div class="help post-content">
+      {{ item.content }}
+    </div>
+  </div>
+{% endfor %}
+
