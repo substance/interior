@@ -9,7 +9,7 @@ categories:
 - features
 ---
 
-Substance is a distributed system. Every node can act as a server or client.
+Substance is being designed as distributed system. Every node can act as a server or client. Nodes can either be running locally on your computer 
 
 
 # Substance Conductor

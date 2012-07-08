@@ -365,12 +365,9 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .intro {
   background: #E9EAE5;
-  /*background: #fff;*/
+  line-height: 1.5em;
   padding: 40px;
   padding-bottom: 20px;
-
-  /*border-top: 1px solid #C1C1C1;*/
-  /*border-bottom: 1px solid #C1C1C1;*/
 }
 
 .intro .title {
