@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Free and Open Source
+title: Open Source Software
 abstract: Substance is 100% Open Source Software
 author_twitter: _mql
 author: Michael Aufreiter

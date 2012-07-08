@@ -151,7 +151,7 @@ p {
 #menu a {
   color: #fff;
   background: rgba(0,0,0, 0.2);
-  padding: 5px 10px;
+  padding: 10px 20px;
   font-weight: bold;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -160,7 +160,7 @@ p {
   display: block;
   float: left;
   margin-right: 30px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 #menu a.active {
@@ -322,23 +322,34 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .article-navigation .article-link {
+  position: relative;
   display: block;
   float: left;
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 110px;
 
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-
+  -moz-border-radius: 55px;
+  -webkit-border-radius: 55px;
+  border-radius: 55px;
+  vertical-align: middle;
   background: rgba(0,0,0, 0.3);
-  
-  
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
   margin-right: 10px;
 }
 
+
+.article-link .title {
+  vertical-align: middle;
+  padding: 0 10px;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
 .article-link.active {
-  border: 3px solid #fff;
+  /*border: 3px solid #fff;*/
   background: rgba(0,0,0, 0.5);
   /*background: #078FA2;*/
 }

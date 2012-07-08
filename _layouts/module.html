@@ -7,7 +7,7 @@ layout: default
   <div class="article-navigation">
     {% for item in site.categories.modules reversed limit:40 offset:0 %}
       <a class="article-link{% if page.title == item.title %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-        
+        <div class="title" style="padding-top: 43px">{{item.title}}</div>
       </a>
     {% endfor %}
   </div>
@@ -20,7 +20,7 @@ layout: default
   <div class="meta">
     Contributors:
     {% for item in page.contributors %}
-      <a class="article-link" href="http://github.com/{{item.username}}">
+      <a class="article-link" href="http://github.com/{{item.user}}">
         {{ item.name }}
       </a>
     {% endfor %}

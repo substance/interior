@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Distributed
+title: Distributed Architecture
 abstract: Substance is a distributed system, for creating and sharing documents among peers.
 author_twitter: _mql
 author: Michael Aufreiter
