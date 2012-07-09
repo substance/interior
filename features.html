@@ -15,7 +15,7 @@ permalink: /features/
   </div>
 </div>
 
-{% for item in site.categories.features reversed limit:1 offset:0 %}
+{% for item in site.categories.features limit:1 offset:3 %}
   <div class="intro">
     <div class="title">{{item.title}}</div>
     <div class="abstract">{{item.abstract}}</div>
