@@ -19,7 +19,14 @@ permalink: /modules/
   <div class="intro">
     <div class="title">{{item.title}}</div>
     <div class="abstract">{{item.abstract}}</div>
-    <div class="meta"> Posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </div>
+    <div class="meta">
+      Contributors:
+      {% for item in item.contributors %}
+        <a class="article-link" href="http://github.com/{{item.user}}">
+          {{ item.name }}
+        </a>
+      {% endfor %}
+    </div>
   </div>
 
   <div class="article-wrapper">
