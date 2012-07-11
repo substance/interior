@@ -59,7 +59,7 @@ textarea,
 input { font: 13px/20px 'OpenSans', sans-serif; }
 
 a {
-  color: #526066;
+  color: #A33A20;
   text-decoration: none;
   -moz-transition: background 100ms linear, color 100ms linear;
   -o-transition: background 100ms linear, color 100ms linear;
@@ -67,7 +67,7 @@ a {
   transition: background 100ms linear, color 100ms linear;
   }
 a:hover {
-  color: #3d4548;
+  color: #CF4A29;
   }
 
 a:focus {
@@ -88,9 +88,7 @@ h4, h5, h6 {
 h1 { font-size: 24px; }
 h1 small { font-size: 13px; font-weight: normal; }
 h2 { 
-  font-weight: normal;
   font-size: 16px;
-  padding: 5px 0 5px 30px;
   }
 h2 small { font-size: 16px; font-weight: normal; }
 h3 { 
@@ -123,11 +121,48 @@ p {
   Globals
 ---------------------------------------------*/
 
+.darker {
+  background: #E9EAE5;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
 /* Top Branding/Navigation */
 #header {
   padding: 0 20px;
   height: 60px;
-  background: #E5E6E0;
+  background: #3d3d34;
+  overflow: visible;
+  }
+
+#header a.title {
+  font-size: 22px;
+  line-height: 60px;
+  color: rgba(255,255,255, 0.6);
+
+  height: 60px;
+  font-weight: bold;
+  }
+
+#header .subtitle {
+  height: 60px;
+  font-size: 20px;
+  padding-left: 20px;
+  line-height: 60px;
+  color: #999;
+}
+
+#header a.title span {
+  display: none;
+  }
+
+#header .navigation {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 12px;
+  position: relative;
+  line-height: 30px;
+  padding: 0;
   overflow: visible;
   }
 
@@ -136,9 +171,10 @@ p {
   margin: 0 auto;
   padding: 30px 0;
   color: #666;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 24px;
-  color: rgba(255,255,255, 0.8);
+
+  color: rgba(0,0,0, 0.75);
 }
 
 #menu {
@@ -163,40 +199,9 @@ p {
   font-size: 18px;
 }
 
-#menu a.active {
+#menu a.active, #menu a:hover {
   background: rgba(0,0,0, 0.5);
-  /*background: rgba(0,0,0, 0.8);*/
 }
-
-#header a.title {
-  font-size: 22px;
-  line-height: 60px;
-  color: #444;
-  height: 60px;
-  font-weight: bold;
-  }
-
-#header .subtitle {
-  height: 60px;
-  font-size: 20px;
-  padding-left: 20px;
-  line-height: 60px;
-  color: #777;
-}
-
-#header a.title span {
-  display: none;
-  }
-
-#header .navigation {
-  width: 800px;
-  margin: 0 auto;
-  font-size: 12px;
-  position: relative;
-  line-height: 30px;
-  padding: 0;
-  overflow: visible;
-  }
 
  
 #main {
@@ -221,15 +226,138 @@ p {
 
 #main h1 {
   padding: 20px 0;
+  padding-top: 50px;
 }
 
 /* ------------------------------------------
   Startpage
 ---------------------------------------------*/
 
-#main .start-facts {
+.content {
   width: 800px;
   margin: 0 auto;
+}
+
+.smaller {
+  font-size: 18px;
+}
+
+.content h1 {
+  /*margin-top: 20px;*/
+}
+
+.answer {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.substance-features {
+  width: 800px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+
+.substance-features .feature {
+  padding: 23px;
+  float: left;
+  width: 250px;
+  height: 400px;
+  background: rgba(0,0,0, 0.05);
+  margin-right: 15px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  -moz-border-radius: 4px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  border-radius: 4px
+}
+
+.substance-features .feature h2 {
+  padding-top: 10px;
+}
+
+.progress-bar {
+  overflow: auto;
+}
+
+.progress-bar .progress {
+  background: rgba(0,0,0, 0.2);
+  margin-right: 1px;
+  width: 75px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  float: left;
+}
+
+.progress-bar .progress:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.progress-bar .progress:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 25px;
+}
+
+.progress-bar .progress.done {
+  background: #85AE25;
+  color: white;
+}
+
+.demo {
+  /*color: rgba(255,255,255, 0.6);*/
+  background: #E9EAE5;
+  border-top: 1px solid #ccc;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.demo img {
+  width: 800px;
+  box-shadow: 0px 5px 15px 3px rgba(0,0,0, 0.5)
+}
+
+.demo a.button {
+  color: rgba(255,255,255, 0.7);
+  display: block;
+  margin: 30px 250px;
+  padding: 10px 0;
+  background: rgba(0,0,0, 0.7);
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.demo a.button:hover {
+  background: rgba(0,0,0, 0.8);
+}
+
+.progress-marker {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 247px;
+  width: 120px;
+  padding: 10px;
+  background: rgba(0,0,0, 0.2);
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-marker .arrow-up {
+  position: absolute;
+  top: -5px;
+  left: 52px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-bottom: 5px solid rgba(0,0,0, 0.2);
 }
 
 
@@ -248,13 +376,12 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   }
 
 #footer {
-
   position: relative;
   margin-top: -60px; /* negative value of footer height */
   height: 60px;
   overflow: hidden;
   line-height: 60px;
-  border-top: 1px solid #c3ccd0;
+  /*border-top: 1px solid #c3ccd0;*/
   clear:both;
   }
 
@@ -297,7 +424,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 #main .start {
-  background: #7a7a68;
+  background: #E9EAE5;
+  border-bottom: 1px solid #ccc;
 }
 
 #main .modules {
