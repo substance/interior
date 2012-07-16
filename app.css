@@ -65,6 +65,7 @@ a {
   -o-transition: background 100ms linear, color 100ms linear;
   -webkit-transition: background 100ms linear, color 100ms linear;
   transition: background 100ms linear, color 100ms linear;
+  font-weight: bold;
   }
 a:hover {
   color: #CF4A29;
@@ -178,10 +179,13 @@ p {
 }
 
 #menu {
-  padding-top: 30px;
+  padding: 10px 0;
+  overflow: auto;
+}
+
+#menu .inner {
   width: 800px;
   margin: 0 auto;
-  overflow: auto;
 }
 
 #menu a {
@@ -199,9 +203,26 @@ p {
   font-size: 18px;
 }
 
+#menu a:last-child {
+  margin-right: 0px;
+}
+
+#menu a.title {
+  padding-left: 0px;
+  margin-right: 141px;
+  font-size: 26px;
+  color: rgba(255,255,255, 0.8);
+  background: none;
+}
+
+#menu a.title.active, #menu a.title:hover {
+  background: none;
+}
+
 #menu a.active, #menu a:hover {
   background: rgba(0,0,0, 0.5);
 }
+
 
  
 #main {
@@ -225,8 +246,8 @@ p {
 }
 
 #main h1 {
-  padding: 20px 0;
-  padding-top: 50px;
+  padding: 10px 0;
+  padding-top: 20px;
 }
 
 /* ------------------------------------------
@@ -260,19 +281,45 @@ p {
 
 
 .substance-features .feature {
-  padding: 23px;
+  /*padding: 15px;*/
   float: left;
   width: 250px;
-  height: 400px;
-  background: rgba(0,0,0, 0.05);
+  
+  
   margin-right: 15px;
   font-size: 14px;
   margin-bottom: 15px;
-  -moz-border-radius: 4px;
-  border: 1px solid #ccc;
-  -webkit-border-radius: 4px;
-  border-radius: 4px
+  
+
 }
+
+.substance-features .feature img {
+  display: block;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.substance-features .description {
+  margin-top: 0px;
+  padding: 15px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 300px;
+  background: rgba(0,0,0, 0.05);
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/*.substance-features .feature img {
+  display: none;
+}
+*/
+/*.substance-features .feature {
+  background: url('/images/knight-foundation.png') top left no-repeat;
+}*/
 
 .substance-features .feature h2 {
   padding-top: 10px;
@@ -419,26 +466,60 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   Article
 ---------------------------------------------*/
 
-#main .features {
+#main .start #menu {
+  background: #3d3d34;
+}
+
+#main .features #menu {
   background: #86a2a9;
 }
+
+#main .modules #menu {
+  background: #b16649;
+}
+
+#main .team #menu {
+  background: #90963c;
+}
+
+#main .contribute #menu {
+  background: #E9EAE5;
+}
+
+
+.features .article-navigation .article-link.active {
+  background: #86a2a9;
+}
+
+.modules .article-navigation .article-link.active {
+  background: #b16649;
+}
+
 
 #main .start {
   background: #E9EAE5;
   border-bottom: 1px solid #ccc;
 }
 
+#main .features {
+  background: #E9EAE5;
+  /*border-bottom: 1px solid #ccc;*/
+}
+
 #main .modules {
-  background: #b16649;
+  background: #E9EAE5;
+  /*border-bottom: 1px solid #ccc;*/
 }
 
 #main .contribute {
-  background: #a2c355;
+  background: #E9EAE5;
+  /*border-bottom: 1px solid #ccc;*/
 }
 
 
 #main .team {
-  background: #90963c;
+  background: #E9EAE5;
+  border-bottom: 1px solid #ccc;
 }
 
 
@@ -456,12 +537,15 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   height: 110px;
   width: 110px;
 
+
   -moz-border-radius: 55px;
   -webkit-border-radius: 55px;
   border-radius: 55px;
   vertical-align: middle;
+
+  opacity: 0.7;
   background: rgba(0,0,0, 0.3);
-  color: white;
+  color: #222;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -476,31 +560,81 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   padding-top: 30px;
 }
 
-.article-link.active {
+.article-navigation .article-link.active {
   /*border: 3px solid #fff;*/
-  background: rgba(0,0,0, 0.5);
+  /*background: rgba(0,0,0, 0.5);*/
   /*background: #078FA2;*/
+  color: white;
+  opacity: 1.0;
 }
 
-.article-link:hover {
-  background: rgba(0,0,0, 0.5);
+.article-navigation .article-link:hover {
+  opacity: 0.8;
+  /*background: rgba(0,0,0, 0.5);*/
+}
+
+.article-navigation .article-link.active:hover {
+  opacity: 1.0;
+  /*background: rgba(0,0,0, 0.5);*/
 }
 
 .article-wrapper {
-  background: #fff;
   padding-bottom: 50px;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+
+.improve-article-wrapper a.button {
+  width: 100px;
+  float: left;
+  color: rgba(255,255,255, 0.8);
+  display: block;
+  line-height: 1.5em;
+
+  /*margin: 30px 250px;*/
+  padding: 20px 0;
+  background: rgba(0,0,0, 0.7);
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.improve-article-wrapper a.button:hover {
+  background: rgba(0,0,0, 0.8);
+  color: rgba(255,255,255, 1);
+}
+
+.improve-article-wrapper {
+  font-size: 20px;
+  padding: 20px 0;
+  background: #E9EAE5;
+  border-bottom: 1px solid #CCC;
+}
+
+.improve-article {
+  overflow: auto;
+  width: 800px;
+  margin: 20px auto;
+}
+
+.improve-article p {
+  padding-top: 13px;
+  margin-left: 130px;
 }
 
 .intro {
   background: #E9EAE5;
   line-height: 1.5em;
   padding: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .intro .title {
   width: 800px;
-  margin: 20px auto;
+  margin: 0px auto;
   font-size: 36px; 
   margin-bottom: 10px; 
   font-weight: bold;
@@ -582,23 +716,25 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   margin-bottom: 20px;
   }
   
-.post-content code {
+/*.post-content code {
   font-family: Menlo, monospace;
   padding: 4px;
   border-radius: 3px;
   font-size: 12px;
   border: 1px solid #C1C1C1;
-  }
+  }*/
 
-.post-content pre {
+/*.post-content pre {
+  margin: 30px 0;
   padding: 10px;
   border-radius: 3px;
   border: 1px solid #C1C1C1;
+  background: #E9EAE5;
   }
 
 .post-content pre code {
   border: none;
-  }
+  }*/
 
 .post-content hr {
   margin: 5px 0 4px 0;
@@ -651,3 +787,101 @@ body:before {/* thanks to Maleika (Kohoutec)*/
     right: 0;
     }
   }
+
+
+
+/* Rainbow Github Theme */
+
+
+/**
+ * GitHub theme
+ *
+ * @author Craig Campbell
+ * @version 1.0.2
+ */
+
+pre {
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    padding: 10px 10px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+code {
+    border: 1px solid #ccc;
+
+    margin: 0px 2px;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+pre code {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+pre, code {
+    /*font-family: 'Bitstream Vera Sans Mono', Courier, monospace;*/
+    font-family: Menlo, monospace;
+    color: #333;
+    background: #E9EAE5;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+pre, pre code {
+    font-size: 14px;
+}
+
+pre .comment {
+    color: #998;
+}
+
+pre .support {
+    color: #0086B3;
+}
+
+pre .tag, pre .tag-name {
+    color: navy;
+}
+
+pre .keyword, pre .css-property, pre .vendor-prefix, pre .sass, pre .class, pre .id, pre .css-value, pre .entity.function, pre .storage.function {
+    font-weight: bold;
+}
+
+pre .css-property, pre .css-value, pre .vendor-prefix, pre .support.namespace {
+    color: #333;
+}
+
+pre .constant.numeric, pre .keyword.unit, pre .hex-color {
+    font-weight: normal;
+    color: #099;
+}
+
+pre .entity.class {
+    color: #458;
+}
+
+pre .entity.id, pre .entity.function {
+    color: #900;
+}
+
+pre .attribute, pre .variable {
+    color: teal;
+}
+
+pre .string, pre .support.value  {
+    font-weight: normal;
+    color: #CF4A29;
+}
+
+pre .regexp {
+    color: #2f8ea2;
+}

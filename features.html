@@ -9,7 +9,7 @@ permalink: /features/
 
     {% for item in site.categories.features reversed limit:40 offset:0 %}
       <a class="article-link{% if item.title contains "Content" %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-        <div class="title">{{item.title}}</div>
+        <div class="title" style="padding-top: 36px;">{{item.title}}</div>
       </a>
     {% endfor %}
   </div>
@@ -19,7 +19,6 @@ permalink: /features/
   <div class="intro">
     <div class="title">{{item.title}}</div>
     <div class="abstract">{{item.abstract}}</div>
-    <!--<div class="meta"> Posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </div>-->
   </div>
 
   <div class="article-wrapper">

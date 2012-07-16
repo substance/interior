@@ -31,3 +31,12 @@ A document is created on a particular Substance node. This is refered to as the 
 # Document sessions
 
 A session is yielded every time a document gets edited. Every substance node is capable of hosting sessions. Sessions are usually hosted by the node that owns the master copy of the document if available. If that node is not online and there are replicas available (e.g. on a hosted node) the session is hosted there. Arbitrary Substance users can join a session.
+
+
+# Workflow
+
+
+<!--okay..  ein szenario könnte wie folgt aussehen:
+- download substance and open it (it's a full instance)
+- create your first document.. (it lives locally
+- -->
