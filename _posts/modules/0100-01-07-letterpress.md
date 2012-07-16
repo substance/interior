@@ -4,11 +4,20 @@ title: Letterpress
 abstract: Letterpress transforms Substance documents to different output formats, such as PDF, LaTeX, ePub.
 author_twitter: _mql
 author: Michael Aufreiter
+links: # specify links for demo and source
+  source: http://github.com/substance/surface
+  demo: http://composer.substance.io
+prose_link:
+  http://prose.io/#substance/substance.github.com/edit/master/_posts/modules/0100-01-07-letterpress.md
+version: 0.2.0
+progress: 2
 contributors:
 - name: Tim Baumann
   user: timjb
+  avatar: https://secure.gravatar.com/avatar/d6eea5713cdf2f25ebf001263fbaa9f4?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png
 - name: Michael Aufreiter
   user: michael
+  avatar: https://secure.gravatar.com/avatar/d5a959d7e57daa5433fcb9f8da40be4b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png
 categories:
 - modules
 ---
