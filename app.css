@@ -243,10 +243,35 @@ p {
 #main .team-members {
   width: 800px;
   margin: 0 auto;
+  padding-top: 30px;
 }
 
 #main h1 {
   padding: 10px 0;
+  padding-top: 20px;
+}
+#main .team-members .member h1 {
+  padding-top: 0px;
+}
+#main .team-members .member {
+  background: rgba(0,0,0, 0.05);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  overflow: auto;
+  padding: 20px;
+}
+
+#main .team-members .member img {
+  border-radius: 5px;
+  float: left;
+}
+
+#main .team-members .member .description {
+  margin-left: 190px;
+}
+
+#main .team-members .member .links {
   padding-top: 20px;
 }
 
@@ -521,6 +546,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   background: #E9EAE5;
   border-bottom: 1px solid #ccc;
 }
+
+
 
 
 .article-navigation {

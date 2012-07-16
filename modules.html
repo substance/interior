@@ -14,23 +14,51 @@ permalink: /modules/
   </div>
 </div>
 
-{% for item in site.categories.modules reversed limit:1 offset:5 %}
+{% for page in site.categories.modules reversed limit:1 offset:5 %}
+
   <div class="intro">
-    <div class="title">{{item.title}}</div>
-    <div class="abstract">{{item.abstract}}</div>
+    <div class="title">
+      {{page.title}}
+      <div class="small-progress-bar">
+        <div class="progress{% if page.progress > 0 %} done{% endif %}"></div>
+        <div class="label">{{page.version}}</div>
+        <div class="progress{% if page.progress > 1 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 2 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 3 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 4 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 5 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 6 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 7 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 8 %} done{% endif %}"></div>
+        <div class="progress{% if page.progress > 9 %} done{% endif %}"></div>
+      </div>
+    </div>
+    <div class="abstract">{{page.abstract}}</div>
+
     <div class="meta">
-      Contributors:
-      {% for item in item.contributors %}
-        <a class="article-link" href="http://github.com/{{item.user}}">
-          {{ item.name }}
-        </a>
-      {% endfor %}
+      <div class="contributors">
+        <div class="caption">Contributors</div>
+        {% for item in page.contributors %}
+          <a class="contributor" href="http://github.com/{{item.user}}" title="{{ item.name }}">
+            <img src="{{ item.avatar }}" width="40" height="40"/>
+          </a>
+        {% endfor %}
+      </div>
+      <div class="links">
+        <div class="caption">Links</div>
+        <div class="link-listing">
+          <a class="button" href="{{page.links.source}}" target="_blank">Source Code</a>
+          {% if page.links.demo %}
+            <a class="button" href="{{page.links.demo}}" target="_blank">Demo</a>
+          {% endif %}
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="article-wrapper">
     <div class="help post-content">
-      {{ item.content }}
+      {{ page.content }}
     </div>
   </div>
 {% endfor %}
