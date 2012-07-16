@@ -15,15 +15,24 @@ permalink: /features/
   </div>
 </div>
 
-{% for item in site.categories.features limit:1 offset:3 %}
+{% for page in site.categories.features limit:1 offset:2 %}
   <div class="intro">
-    <div class="title">{{item.title}}</div>
-    <div class="abstract">{{item.abstract}}</div>
+    <div class="title">{{page.title}}</div>
+    <div class="abstract">{{page.abstract}}</div>
   </div>
 
   <div class="article-wrapper">
     <div class="help post-content">
-      {{ item.content }}
+      {{ page.content }}
+    </div>
+  </div>
+
+  <div class="improve-article-wrapper">
+    <div class="improve-article">
+      <a class="button" href="{{page.prose_link }}">Edit in Prose</a>
+      <p>
+        This article has been written and published using <a href="http://prose.io" target="_blank">Prose</a>. Please help improving this documentation by contributing to the text.
+      </p>
     </div>
   </div>
 {% endfor %}

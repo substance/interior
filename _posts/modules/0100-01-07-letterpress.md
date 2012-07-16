@@ -5,8 +5,8 @@ abstract: Letterpress transforms Substance documents to different output formats
 author_twitter: _mql
 author: Michael Aufreiter
 links: # specify links for demo and source
-  source: http://github.com/substance/surface
-  demo: http://composer.substance.io
+  source: http://github.com/substance/letterpress
+  demo: http://letterpress.substance.io
 prose_link:
   http://prose.io/#substance/substance.github.com/edit/master/_posts/modules/0100-01-07-letterpress.md
 version: 0.2.0
@@ -22,8 +22,22 @@ categories:
 - modules
 ---
 
-Letterpress is the service that converts Substance documents to various formats (including Markdown, HTML and EPUB) and typesets them using LaTeX. Substance uses this service for it's export / import functionality. This document discusses how to install Letterpress and its implementation.
+[Letterpress](http://letterpress.substance.io) is a service that converts Substance documents to various formats (including Markdown, HTML and EPUB) or typesets them using LaTeX. Substance uses this service for it's export / import functionality. This document discusses how to use Letterpress as well as how it's implemented.
 
+
+# Usage
+
+Select an output format:
+
+![](http://substance-assets.s3.amazonaws.com/63/236a404c9306b2a8a738c061159fb7/letterpress-interface.png)
+
+See the PDF output:
+
+![](http://substance-assets.s3.amazonaws.com/d3/2cd3ad03589717de9a2f1b21bf00f3/pdf-output.png)
+
+The output for markdown looks like this:
+
+![](http://substance-assets.s3.amazonaws.com/3a/703584dfb421054a7bce452d1c55a8/markdown-output.png)
 
 # Implementation
 The implementation is split in two parts:
@@ -32,3 +46,5 @@ The implementation is split in two parts:
 - An executable written in Haskell which produces the output in the desired format, using Pandoc, an universal markup converter written in Haskell. This enables Letterpress to support many other ouput formats as well as LaTeX.
 
 The first part uses the second for converting the documents. The first part uses a JSON representation of Pandoc's internal abstract syntax tree to communicate with the second. The rules for the serialization/deserialization of Pandoc's AST to/from JSON are derived from Pandoc's type declarations in an automatic fashion. It's therefore important to have a basic understanding of Haskell's type definitions.
+
+
