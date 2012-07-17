@@ -8,7 +8,7 @@ author_twitter: _mql
 author: Michael Aufreiter
 categories:
 - features
-published: false
+published: true
 ---
 
 Substance is a fully web-based document authoring and publishing platform. With Substance, Writers, Scientists, Journalists and everyone who's interested in publishing can use an open platform for writing and sharing articles in a collaborative way. 
