@@ -1,7 +1,7 @@
 ---
 layout: feature
 title: Content is data
-abstract: Substance considers content as data, which allows for interesting things like semantic data analysis and novel visualizations. Imagine you can query documents like a database. With Substance you can.
+abstract: Substance considers content as data, so you can query documents like a database.
 prose_link:
   http://prose.io/#substance/substance.github.com/edit/master/_posts/features/0100-01-01-content-is-data.md
 author_twitter: _mql
