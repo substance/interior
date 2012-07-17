@@ -8,6 +8,7 @@ author_twitter: _mql
 author: Michael Aufreiter
 categories:
 - features
+published: false
 ---
 
 Substance is a fully web-based document authoring and publishing platform. With Substance, Writers, Scientists, Journalists and everyone who's interested in publishing can use an open platform for writing and sharing articles in a collaborative way. 
@@ -20,6 +21,10 @@ Instead of sequential text-editing, documents are composed of Content Nodes. Whi
 ![](http://substance-assets.s3.amazonaws.com/29/0cff0d34004080f40be83968f81af2/editing.png)
 
 Substance uses a uniform data format that allows Cross Media Publishing to arbitrary targets such as Print (PDF, LaTex), E-Book (ePub, Kindle) or integration with a website. Thus it's also fundamentally different from conventional Wiki Systems, that are based on Hypertext. Substance is Open Source, free to use and doesn't introduce vendor lock-ins.
+
+# Eventually consistent
+
+Most things in life are not perfect. That's also true for every document ever written or to be written. Substance supports a workflow that assumes documents will be consistent eventually. We claim that it's way easier to reach consistency if you publish early and provide an easy way for collaboration. Substance helps with implementing a peer-review process, with every reader being a peer.
 
 
 # Content is data
