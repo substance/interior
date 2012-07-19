@@ -18,7 +18,8 @@ permalink: /modules/
 {% for page in site.categories.modules reversed limit:1 offset:5 %}
 
   <div class="intro">
-    <div class="title">{{page.title}}</div>
+    <div class="title">
+    {{page.title}}
       <div class="small-progress-bar">
         <div class="progress{% if page.progress > 0 %} done{% endif %}"></div>
         <div class="label">{{page.version}}</div>
