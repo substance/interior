@@ -6,6 +6,7 @@ permalink: /modules/
 <div class="modules">
   {% include menu.html %}
   <div class="article-navigation">
+    
     {% for item in site.categories.modules reversed limit:40 offset:0 %}
       <a class="article-link{% if item.title == "Document" %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
         <div class="title" style="padding-top: 43px">{{item.title}}</div>
@@ -17,8 +18,7 @@ permalink: /modules/
 {% for page in site.categories.modules reversed limit:1 offset:5 %}
 
   <div class="intro">
-    <div class="title">
-      {{page.title}}
+    <div class="title">{{page.title}}</div>
       <div class="small-progress-bar">
         <div class="progress{% if page.progress > 0 %} done{% endif %}"></div>
         <div class="label">{{page.version}}</div>
