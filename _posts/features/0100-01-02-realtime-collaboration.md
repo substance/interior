@@ -8,6 +8,7 @@ author_twitter: _mql
 author: Michael Aufreiter
 categories:
 - features
+published: true
 ---
 
 Substance has a strong focus on collaboration. That means people should be able to work on a document together very easily, even in realtime.
