@@ -9,7 +9,7 @@ author: Michael Aufreiter
 status: Work in progress
 categories:
 - features
-published: false
+published: true
 ---
 
 Substance is being designed as a distributed system. Every peer can act as a server or client. Nodes can either run locally on your computer or somwhere on the web. It's the same piece of software, except that public nodes may use more sophisticated backends as they most likely need to scale.
