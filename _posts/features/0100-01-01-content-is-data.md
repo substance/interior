@@ -37,7 +37,7 @@ Substance considers content as data, which allows for interesting things like se
 
 # Content Types
 
-New content node types should be support through a plugin system. Applications using the editor require different content types. Examples for such plugins would be:
+New content node types should be supported through a plugin system. Applications using the editor require different content types. Examples for such plugins would be:
 
 - Chemical Structures
 - Formulas
@@ -50,5 +50,5 @@ New content node types should be support through a plugin system. Applications u
 
 # Imitating paper
 
-Traditional digital formats have always tried to imitate paper. Think of footnotes and references that are listed at the bottom of the document. We're going to break with this transition and introduce only general concepts that work with a digital version too.
+Traditional digital formats have always tried to imitate paper. Think of footnotes and references that are listed at the bottom of the document. We're going to break with this tradition and introduce only general concepts that work with a digital version too.
 
