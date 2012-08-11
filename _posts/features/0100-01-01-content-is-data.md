@@ -13,7 +13,7 @@ published: true
 
 Substance is a fully web-based document authoring and publishing platform. With Substance, Writers, Scientists, Journalists and everyone who's interested in publishing can use an open platform for writing and sharing articles in a collaborative way. 
 
-# Strcutrued copmosition
+# Structured composition
 
 Instead of sequential text-editing, documents are composed of Content Nodes. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing. 
 
