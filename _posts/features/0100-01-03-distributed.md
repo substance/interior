@@ -12,7 +12,7 @@ categories:
 published: true
 ---
 
-Substance is being designed as a distributed system. Every peer can act as a server or client. Nodes can either run locally on your computer or somwhere on the web. It's the same piece of software, except that public nodes may use more sophisticated backends as they most likely need to scale.
+Substance is totally being designed as a distributed system. Every peer can act as a server or client. Nodes can either run locally on your computer or somwhere on the web. It's the same piece of software, except that public nodes may use more sophisticated backends as they most likely need to scale.
 
 With Substance our goal is the provision of a modern technology stack, enabling collaborative document composition in realtime between multiple peers. The system is split into separate modules, which talk to each other using message passing. So our System is all about exchanging and manipulating digital documents over the network. To ensure all parties can communicate fluently, we defined a common vocabulary that is spoken by all parties, the [Substance Document Protocol](/modules/document.html).
 
