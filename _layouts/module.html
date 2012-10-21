@@ -43,10 +43,13 @@ layout: default
     <div class="links">
       <div class="caption">Links</div>
       <div class="link-listing">
-        <a class="button" href="{{page.links.source}}" target="_blank">Source Code</a>
         {% if page.links.demo %}
           <a class="button" href="{{page.links.demo}}" target="_blank">Demo</a>
         {% endif %}
+        {% if page.links.download %}
+          <a class="button" href="{{page.links.download}}" target="_blank">Download</a>
+        {% endif %}
+        <a class="button" href="{{page.links.source}}" target="_blank">Source Code</a>
       </div>
     </div>
   </div>
