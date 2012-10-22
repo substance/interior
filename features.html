@@ -8,7 +8,7 @@ permalink: /features/
   <div class="article-navigation">
 
     {% for item in site.categories.features reversed limit:40 offset:0 %}
-      <a class="article-link{% if item.title contains "Content" %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+      <a class="article-link{% if item.title contains "Semantic" %} active{% endif %}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
         <div class="title" style="padding-top: 36px;">{{item.title}}</div>
       </a>
     {% endfor %}
