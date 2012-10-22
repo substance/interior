@@ -27,4 +27,4 @@ Most often things work best when there are simple rules. This is why Substance c
 
 # Content is data
 
-Substance considers content as data, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. Please refer to the documentation of the [Substance Document model](http://localhost:4000/modules/document.html) to learn how this works.
+Substance considers content as data, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. Please refer to the documentation of the [Substance Document](http://localhost:4000/modules/document.html) module to learn how this works.
