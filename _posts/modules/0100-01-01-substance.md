@@ -40,6 +40,28 @@ Substance is fast. With Substance all operations are performed locally, giving i
 Documents are stored locally on your computer. They are safe and secure until you hit publish and replciate them with a trusted Substance Hub.
 
 
+# Install
+
+    git clone git@github.com:substance/substance.git
+    npm install
+    node server.js
+
+
+## Build native OSX Application
+
+
+    mkdir build
+    cd build
+    cmake ..
+    make
+
+
+## Enable Webkit Inspector
+
+
+    defaults write quasipartikel.substance.Substance WebKitDeveloperExtras -bool true
+
+
 # License
 
 The Substance App will be released under the MIT license. We chose a very libaral license because we wanted to make it easy for you to use Substance in your environment and also get involved into the development.
