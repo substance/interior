@@ -20,7 +20,6 @@ categories:
 published: true
 ---
 
-
 # The Substance Application
 
 Below you can see the lastest dev-build of the Substance application. We're working out the kinks to provide you with a solid release as soon as possible.
@@ -43,6 +42,7 @@ Documents are stored locally on your computer. They are safe and secure until yo
 # Install
 
     git clone git@github.com:substance/substance.git
+    cd substance
     npm install
     node server.js
 
