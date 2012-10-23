@@ -33,8 +33,13 @@ Not only Substance keeps the UI-noise as low as possible, it also can also contr
 
 # Fast
 
-Substance is fast. With Substance all operations are performed locally, giving it a huge speed advantage on centralized systems that constantly have to communicate with a server somewhere. The Substance Editor applies operations locally first, then distributes the changes over the network.
+Substance is fast. With Substance all operations are performed locally, giving it a huge speed advantage on centralized systems that constantly have to communicate with a server somewhere. The Substance editor applies operations locally first, then distributes the changes over the network.
 
 # Secure
 
 Documents are stored locally on your computer. They are safe and secure until you hit publish and replciate them with a trusted Substance Hub.
+
+
+# License
+
+The Substance App will be released under the MIT license. We chose a very libaral license because we wanted to make it easy for you to use Substance in your environment and also get involved into the development.

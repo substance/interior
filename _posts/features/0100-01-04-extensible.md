@@ -2,7 +2,7 @@
 layout: feature
 published: true
 title: Extensible
-abstract: Since Substance exposes content as data, extensibility is a natural implication. We're at an early stage still, and we'll provide you with detailed instruction on how to extend the system soon. But here's what you can do.
+abstract: Since Substance exposes content as data, extensibility is a natural implication. We are at an early stage still, and we'll provide you with detailed instruction on how to extend the system soon. But here's what you will be able to do.
 prose_link:
   http://prose.io/#substance/substance.github.com/edit/master/_posts/features/0100-01-04-open-source.md
 author_twitter: _mql
@@ -13,7 +13,7 @@ categories:
 ---
 
 
-# Implement custom element types
+# Create custom element types
 
 Substance comes with a predfined set of element types. Out of the box you can choose from headings, text and images. However, it's easy to implement your own element types, and use it with your tailored version of the Substance editor.
 

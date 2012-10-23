@@ -11,13 +11,11 @@ categories:
 published: true
 ---
 
-Traditional digital formats have always tried to imitate paper (think MS Word or Adobe Acrobat). No one can put it better than [Ted Nelson](http://www.youtube.com/watch?v=En_2T7KH6RA) why this is not a good idea.
+Traditional digital formats have always tried to imitate paper (think MS Word or Adobe Acrobat). We fully agree to [Ted Nelson](http://www.youtube.com/watch?v=En_2T7KH6RA) in that regard, who claims that physical paper is like a prison, constrained by 4 walls. He also states that these restrictions no longer apply to electronic documents and that they should no longer try to immitate paper.
 
-![](/images/illustrations/semantic-writing-paper.png)
+<!-- ![](/images/illustrations/semantic-writing-paper.png)-->
 
-Ted Nelson is right. But now that we are in digital land, why not remove just one of these walls and have *Endless paper*.
-
-![](/images/illustrations/semantic-writing-endlesspaper.png)
+<!-- ![](/images/illustrations/semantic-writing-endlesspaper.png)-->
 
 # Structured composition
 
