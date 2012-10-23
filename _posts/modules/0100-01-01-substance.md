@@ -8,7 +8,7 @@ links:
   source: http://github.com/substance/document
   download: https://raw.github.com/substance/document/gh-pages/document.js
 prose_link:
-  http://prose.io/#substance/substance.github.com/edit/master/_posts/modules/0100-01-01-document.md
+  http://prose.io/#substance/substance.github.com/edit/master/_posts/modules/0100-01-01-substance.md
 version: not yet released
 progress: 1
 contributors:
