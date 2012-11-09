@@ -20,7 +20,6 @@ categories:
 published: true
 ---
 
-
 # The Substance Application
 
 Below you can see the lastest dev-build of the Substance application. We're working out the kinks to provide you with a solid release as soon as possible.
@@ -37,7 +36,7 @@ Substance is fast. With Substance all operations are performed locally, giving i
 
 # Secure
 
-Documents are stored locally on your computer. They are safe and secure until you hit publish and replciate them with a trusted Substance Hub.
+Documents are stored locally on your computer. They are safe and secure until you hit publish and replicate them with a trusted Substance Hub.
 
 
 # Install
@@ -64,4 +63,4 @@ Documents are stored locally on your computer. They are safe and secure until yo
 
 # License
 
-The Substance App will be released under the MIT license. We chose a very libaral license because we wanted to make it easy for you to use Substance in your environment and also get involved into the development.
+The Substance App will be released under the MIT license. We chose a very liberal license because we want to make it easy for you to use Substance in any environment and also in hopes that you will get involved with the development.
