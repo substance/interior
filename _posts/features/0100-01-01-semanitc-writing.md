@@ -3,7 +3,7 @@ layout: feature
 title: Semantic writing
 abstract: Instead of editing a big canvas, Substance documents are composed of content elements. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing. 
 prose_link:
-  http://prose.io/#substance/substance.github.com/edit/master/_posts/features/0100-01-01-content-is-data.md
+  http://prose.io/#substance/substance.github.com/edit/master/_posts/features/0100-01-01-semanitc-writing.md
 author_twitter: _mql
 author: Michael Aufreiter
 categories:
