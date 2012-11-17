@@ -20,7 +20,6 @@ categories:
 published: true
 ---
 
-
 # The Substance Application
 
 Below you can see the lastest dev-build of the Substance application. We're working out the kinks to provide you with a solid release as soon as possible.
@@ -42,24 +41,30 @@ Documents are stored locally on your computer. They are safe and secure until yo
 
 # Install
 
-    git clone git@github.com:substance/substance.git
-    npm install
-    node server.js
+    $ git clone git@github.com:substance/substance.git
+    $ npm install
+    $ node server.js
+
+## Make XCode Project
+
+    $ mkdir build-xcode
+    $ cd build-xcode
+    $ cmake -G "Xcode" ..
 
 
 ## Build native OSX Application
 
 
-    mkdir build
-    cd build
-    cmake ..
-    make
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make
 
 
 ## Enable Webkit Inspector
 
 
-    defaults write quasipartikel.substance.Substance WebKitDeveloperExtras -bool true
+    $ defaults write quasipartikel.substance.Substance WebKitDeveloperExtras -bool true
 
 
 # License
