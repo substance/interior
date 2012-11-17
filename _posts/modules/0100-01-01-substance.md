@@ -64,7 +64,7 @@ Documents are stored locally on your computer. They are safe and secure until yo
 ## Enable Webkit Inspector
 
 
-    $ defaults write quasipartikel.substance.Substance WebKitDeveloperExtras -bool true
+    $ defaults write quasipartikel.Substance WebKitDeveloperExtras -bool true
 
 
 # License
