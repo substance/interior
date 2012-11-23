@@ -22,7 +22,7 @@ published: true
 
 # The Substance Application
 
-Below you can see the lastest dev-build of the Substance application. We're working out the kinks to provide you with a solid release as soon as possible.
+Below you can see the lastest dev-build of the **Substance** application. We're working out the kinks to provide you with a solid release as soon as possible.
 
 ![](http://f.cl.ly/items/142r2w3m1q2Z1v0g1v2p/substanceApp.jpg)
 
