@@ -39,6 +39,13 @@ Substance is fast. With Substance all operations are performed locally, giving i
 Documents are stored locally on your computer. They are safe and secure until you hit publish and replciate them with a trusted Substance Hub.
 
 
+# Prequesites
+
+Have Macports installed and run:
+
+	$ port install pcre
+
+
 # Install
 
     $ git clone git@github.com:substance/substance.git
