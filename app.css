@@ -89,14 +89,16 @@ h4, h5, h6 {
 h1 { font-size: 24px; }
 h1 small { font-size: 13px; font-weight: normal; }
 h2 { 
-  font-size: 16px;
+  /*font-size: 16px;*/
+  margin: 10px 0;
   }
 h2 small { font-size: 16px; font-weight: normal; }
 h3 { 
-  font-size: 11px;
+/*  font-size: 11px;
   text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 10px;
+  font-weight: bold;*/
+  margin: 10px 0;
+  margin-top: 20px;
   }
 
 h3 small { font-size: 14px; font-weight: normal; }
@@ -486,6 +488,15 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   width:0;
   margin-top:-32767px;/* thank you Erik J - negate effect of float*/
   }
+
+
+/* ------------------------------------------
+  Campaign
+---------------------------------------------*/
+
+.campaign p {
+  margin: 20px 0;
+}
 
 /* ------------------------------------------
   Article
