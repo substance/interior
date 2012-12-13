@@ -1,0 +1,17 @@
+{
+  "name": "substance",
+  "description": "A web-based content composition engine",
+  "version": "0.5.0",
+  "homepage": "http://substance.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/substance/substance"
+  },
+  "dependencies": {
+    "ecstatic": "0.1.6",
+    "library": "0.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.2.0"
+  }
+}
