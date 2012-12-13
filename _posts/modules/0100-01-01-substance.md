@@ -43,7 +43,7 @@ Documents are stored locally on your computer. They are safe and secure until yo
 
 ## Prequesites
 
-Make sure you have XCode and Macports installed. Then install some libraries:
+Make sure you have XCode, Macports, and [CMake](http://www.cmake.org/) installed. Then install some libraries:
 
 	$ port install pcre
     
@@ -52,7 +52,8 @@ Make sure you have XCode and Macports installed. Then install some libraries:
     $ git clone git@github.com:substance/substance.git
 
 ## Build externals
-
+	
+    $ cd substance
     $ mkdir build-ext
     $ cd build-ext
     $ cmake -DEXTERNALS_ONLY=ON ..
