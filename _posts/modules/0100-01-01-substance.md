@@ -39,41 +39,43 @@ Substance is fast. With Substance all operations are performed locally, giving i
 Documents are stored locally on your computer. They are safe and secure until you hit publish and replciate them with a trusted Substance Hub.
 
 
-# Prequesites
+# Install (Build steps OSX)
 
-Have Macports installed and run:
+## Prequesites
+
+Make sure you have XCode and Macports installed. Then install some libraries:
 
 	$ port install pcre
-
-
-# Install
+    
+## Clone repository
 
     $ git clone git@github.com:substance/substance.git
-    $ npm install
-    $ node server.js
 
-## Make XCode Project
+## Build externals
 
-    $ mkdir build-xcode
-    $ cd build-xcode
-    $ cmake -G "Xcode" ..
-
-
-## Build native OSX Application
-
-
-    $ mkdir build
-    $ cd build
-    $ cmake ..
+    $ mkdir build-ext
+    $ cd build-ext
+    $ cmake -DEXTERNALS_ONLY=ON ..
     $ make
 
+## Build Substance App
+
+    $ cd ..
+    $ mkdir build
+	$ cmake ..
+    $ make
+    $ make dist
 
 ## Enable Webkit Inspector
 
-
     $ defaults write quasipartikel.Substance WebKitDeveloperExtras -bool true
+
+## Run Application
+
+    $ cd ..
+    $ ./build/app/osx/Substance.app/Contents/MacOS/Substance
 
 
 # License
 
-The Substance App will be released under the MIT license. We chose a very libaral license because we wanted to make it easy for you to use Substance in your environment and also get involved into the development.
+The Substance App is released under the MIT license. We chose a very libaral license because we wanted to make it easy for you to use Substance in your environment and also get involved into the development.
