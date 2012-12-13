@@ -74,6 +74,10 @@ Make sure you have XCode and Macports installed. Then install some libraries:
 
     $ cd ..
     $ ./build/app/osx/Substance.app/Contents/MacOS/Substance
+    
+## Access Redis (In DEVMODE)
+
+	$ ext/redisdb/bin/redis-cli
 
 # License
 
