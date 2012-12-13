@@ -62,7 +62,8 @@ Make sure you have XCode and Macports installed. Then install some libraries:
 
     $ cd ..
     $ mkdir build
-	$ cmake ..
+    $ cd build
+    $ cmake ..
     $ make
     $ make dist
 
