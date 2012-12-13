@@ -5,8 +5,8 @@ abstract: The new Substance runs locally, natively supporting your operating sys
 author_twitter: _mql
 author: Michael Aufreiter
 links:
-  source: http://github.com/substance/document
-  download: https://raw.github.com/substance/document/gh-pages/document.js
+  source: http://github.com/substance/substance
+  download: 
 prose_link:
   http://prose.io/#substance/substance.github.com/edit/master/_posts/modules/0100-01-01-substance.md
 version: not yet released
@@ -39,7 +39,7 @@ Substance is fast. With Substance all operations are performed locally, giving i
 Documents are stored locally on your computer. They are safe and secure until you hit publish and replciate them with a trusted Substance Hub.
 
 
-# Install (Build steps OSX)
+# Install (OSX)
 
 ## Prequesites
 
@@ -74,7 +74,6 @@ Make sure you have XCode and Macports installed. Then install some libraries:
 
     $ cd ..
     $ ./build/app/osx/Substance.app/Contents/MacOS/Substance
-
 
 # License
 
