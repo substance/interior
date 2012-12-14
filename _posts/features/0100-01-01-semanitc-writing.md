@@ -11,7 +11,7 @@ categories:
 published: true
 ---
 
-Traditional digital formats have always tried to imitate paper (think MS Word or Adobe Acrobat). We fully agree to [Ted Nelson](http://www.youtube.com/watch?v=En_2T7KH6RA) in that regard, who claims that physical paper is like a prison, constrained by 4 walls. He also states that these restrictions no longer apply to electronic documents and that they should no longer try to immitate paper.
+Traditional digital formats have always tried to imitate paper (think MS Word or Adobe Acrobat). We fully agree with [Ted Nelson](http://www.youtube.com/watch?v=En_2T7KH6RA) in that regard, who claims that physical paper is like a prison, constrained by 4 walls. He also states that these restrictions no longer apply to electronic documents and that they should no longer try to immitate paper.
 
 <!-- ![](/images/illustrations/semantic-writing-paper.png)-->
 
