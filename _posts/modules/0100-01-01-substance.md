@@ -6,7 +6,7 @@ author_twitter: _mql
 author: Michael Aufreiter
 links:
   source: http://github.com/substance/substance
-  download: 
+  download: http://interior.substance.io/downloads/Substance.zip
 prose_link:
   http://prose.io/#substance/substance.github.com/edit/master/_posts/modules/0100-01-01-substance.md
 version: not yet released
