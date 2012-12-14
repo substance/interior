@@ -28,7 +28,7 @@ Below you can see the lastest dev-build of the **Substance** application. We're 
 
 # Keyboard navigation
 
-Not only Substance keeps the UI-noise as low as possible, it also can also controlled via keyboard. There are shortcuts for adding, moving and deleting content elements, as well as for working with annotations and comments.
+Substance not only keeps the UI-noise as low as possible, it can also be controlled via keyboard. There are shortcuts for adding, moving and deleting content elements, as well as for working with annotations and comments.
 
 # Fast
 
