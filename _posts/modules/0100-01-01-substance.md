@@ -47,7 +47,7 @@ Make sure you have XCode and Macports or Homebrew installed. Then install some l
 
 	$ port install pcre
 or  
-	`$ brew install pcre`
+	$ brew install pcre
     
 ## Clone repository
 
