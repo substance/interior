@@ -43,9 +43,11 @@ Documents are stored locally on your computer. They are safe and secure until yo
 
 ## Prequesites
 
-Make sure you have XCode and Macports installed. Then install some libraries:
+Make sure you have XCode and Macports or Homebrew installed. Then install some libraries:
 
 	$ port install pcre
+or
+	$ brew install pcre
     
 ## Clone repository
 
@@ -62,6 +64,7 @@ Make sure you have XCode and Macports installed. Then install some libraries:
 
     $ cd ..
     $ mkdir build
+    $ cd build
 	$ cmake ..
     $ make
     $ make dist
