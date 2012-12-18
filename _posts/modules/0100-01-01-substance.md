@@ -53,6 +53,7 @@ or
 ## Clone repository
 
     $ git clone git@github.com:substance/substance.git
+    $ cd substance
 
 ## Build externals
 
