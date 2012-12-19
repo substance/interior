@@ -45,10 +45,10 @@ Documents are stored locally on your computer. They are safe and secure until yo
 
 Make sure you have XCode and Macports or Homebrew installed. Then install some libraries:
 
-	$ port install pcre
+	$ port install pcre cmake
 or  
 
-	$ brew install pcre
+	$ brew install pcre cmake
     
 ## Clone repository
 
