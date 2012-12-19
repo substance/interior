@@ -69,7 +69,7 @@ or
     $ cd build
 	$ cmake ..
     $ make
-    $ make dist
+    $ make install
 
 ## Enable Webkit Inspector
 
