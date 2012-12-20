@@ -11,7 +11,7 @@ The Substance eco-system is composed of an offline editing tool ( **The Substanc
 
 <img src="http://interior.substance.io/images/campaign/substance.png" width="100%" />
 
-**The Substance Composer** is a desktop application (for OSX and Linux), where you create and manage your documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that **content is data**. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone.
+**The Substance Composer** is a desktop application (OSX and Linux first, Windows later), where you create and manage your documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that **content is data**. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone.
 
 *<sub>The Composer will be released under the Open Source MIT license.</sub>*
 
@@ -19,7 +19,7 @@ The Substance eco-system is composed of an offline editing tool ( **The Substanc
 
 <img src="http://interior.substance.io/images/campaign/hub.png" width="100%" />
 
-Anyone can create a free account in the **substance.io** server and start publishing their content online in one click straight from the editor. You can think of it as an Open document repository from where you will be able to manage your published content, add it to existing networks, find other people's public documents or export yours in any imaginable format ( print, Web, tablet, mobile and more).  
+Anyone can create a free account in the **substance.io** server and start publishing their content online in one click straight from the composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people's public documents or export yours in any imaginable format (print, web, tablet, mobile and more).
 
 # We need your help
 
@@ -27,27 +27,27 @@ Over the last two years, Substance has grown into a large project and has gained
 
 The goal of this campaign is to get Substance out of experimental state into a usable release. However, the more concrete our goals get, the more we see the need to spend dedicated time on it, in order to come to the day when we can say "It's finally here!".
 
-#YOUR DONATION
+## Your donation
 
 We’ve been developing Substance for two years now without any funding, making this a project fully built out of voluntary effort. Being an open source project our whole platform is going to be free for every user, so there won't be any licence upon completion or any of the likes. The funds collected during this campaign are intended for the development of the platform. 
 
-##Return on Investment (what do i get?)
+## Return on Investment (what do i get?)
 
-Substance is designed to support your publishing workflow. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way… improve it, customize it and even making money with it!  
+Substance is designed to support your publishing workflow. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way... improve it, customize it and even making money with it!  
 By using our platform you can make your clients happy by improving their workflows, saving them time and money and increase revenue.  
 And finally, all of our donators will be mentioned in a supporters page on the our website.
 
-##Roadmap
+## Roadmap
 
 Here's how our roadmap looks like.
 
 <img src="http://interior.substance.io/images/campaign/roadmap.png" width="100%" />
 
-#OPEN SOURCE
+## Open Source
 
 Behind the scenes the Substance is mainly composed by a stack of open source library that will be publicly available once we publicly release them.
 
-##Substance Document
+### Substance Document
 
 At the core of the whole platform is the [Substance Document](http://interior.substance.io/modules/document.html). The Document is a programmatic interface for creating and transforming digital documents. It ensures consistency, separates content from presentation and provides an easy to use API.  
 
@@ -55,7 +55,7 @@ At the core of the whole platform is the [Substance Document](http://interior.su
 
 *<sub>Will be released under the Open Source MIT license.</sub>*
 
-##Substance Surface
+###Substance Surface
 
 Substance Surface is an in browser multi-line plain text editing control. It provides a low-level interface for general text manipulation, insertion, deletion et. al. and user-defined range based annotations. Surface exposes an API that will make it possible to build more complex text editors on top of it.  
 
@@ -63,7 +63,7 @@ Substance Surface is an in browser multi-line plain text editing control. It pro
 
 *<sub>Will be released under the Open Source MIT license.</sub>*
 
-#AND THEN?
+## And then?
 
 This campaign is just a starting point. Once we have a stable foundation is when things will become really exciting.
 
@@ -76,7 +76,7 @@ Here are a few of our next priorities:
    
 This basically means that if we manage to exceed our goals with the campaign, all the money will still be used for doing further work on Substance.
 
-#WHO ARE WE?
+## Who are we?
 
 Our core team consists of three people: [Michael Aufreiter](http://github.com/michael), [Victor Saiz](http://github.com/vectorsize), [Oliver Buchtala](http://github.com/oliver----).
 <img src="http://interior.substance.io/images/campaign/team.png" width="100%" />
