@@ -3,28 +3,25 @@ layout: campaign
 permalink: /campaign/
 ---
 
-#SUBSTANCE
-
 [Substance](http://substance.io) is a content creation tool and a dead simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content.
 
-The Substance eco-system is composed of an offline editing tool ( **The Substance Editor** ) and an online multi platform publishing system ( **substance.io** )
+The Substance eco-system is composed of an offline editing tool ( **The Substance Composer** ) and an online multi platform publishing platform ( **substance.io** )
 
-#THE EDITOR
+## The Composer
 
 <img src="http://interior.substance.io/images/campaign/substance.png" width="100%" />
 
-**The Substance Editor** is the multi-platform native application where you create and manage your documents. While traditional text editors usually deal with visual information (emulating its representations on paper), our Editor is developed around the idea that content is data. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone.
+**The Substance Composer** is a desktop application (for OSX and Linux), where you create and manage your documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that **content is data**. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone.
 
-*<sub>Will be released under the Open Source MIT license.</sub>*
+*<sub>The Composer will be released under the Open Source MIT license.</sub>*
 
-
-#SUBSTANCE.IO
+## Substance.io
 
 <img src="http://interior.substance.io/images/campaign/hub.png" width="100%" />
 
 Anyone can create a free account in the **substance.io** server and start publishing their content online in one click straight from the editor. You can think of it as an Open document repository from where you will be able to manage your published content, add it to existing networks, find other people's public documents or export yours in any imaginable format ( print, Web, tablet, mobile and more).  
 
-#WE NEED YOUR HELP
+# We need your help
 
 Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. But sadly we have not yet reached a stage in which they could start using it and we'd love to change that!
 
