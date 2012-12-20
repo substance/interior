@@ -1,4 +1,4 @@
 Substance
 =================
 
-Substance home.
+The Substance website.
