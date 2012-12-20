@@ -77,25 +77,31 @@ We'll be adding a plugin system for the Composer in order to make it easy for de
 
 Our architecture is ready to support collaborative workflows, so documents can be edited by multiple users, even in realtime.
 
-This basically means that if we manage to exceed our goals with the campaign, all the money will still be used for doing further work on Substance.
 
 ## Who are we?
 
 Our core team consists of three people: [Michael Aufreiter](http://github.com/michael), [Victor Saiz](http://github.com/vectorsize), [Oliver Buchtala](http://github.com/oliver----).
 <img src="http://interior.substance.io/images/campaign/team.png" width="100%" />
 
-
 We would also like to thank [Samo Korosec](http://dribbble.com/shots/158621-Rich-Text-Editor-Icons), [Tim Baumann](http://ot.substance.io) and [Remo Rauscher](http://vimeo.com/27730207) for their contributions.
 
 
 # Frequently asked questions
 
-**How is it different from Google Docs**
+**What happens if the campaign goal is not reached?**
 
-Unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user. Because of the absence of formatting utilities, it suggests structured, content-oriented writing. The Substance Composer is available as Open Source and can be extended by the developer community. We believe data integrity is important. With Substance your data is stored locally, unless you share it with the public or a selected number of people.
+We're dedicated to the idea of making Substance happen anyway. If we don’t reach our goal, we’ll work with less, just moving slower.
+
+**What happens if the campaign goal is exceeded?**
+
+If we manage to exceed our goals with the campaign, all the money will still be used for doing further work on Substance (see "And then?" section).
+
+**How is it different from Google Docs?**
+
+Unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user. Because of the absence of formatting utilities, it suggests structured, content-oriented writing. The Substance Composer is available as Open Source and can be extended by the developer community. It's is intended to be a platform, not a product. We believe data ethics are important. With Substance your data is stored locally, unless you share it with the public or a selected number of people.
+
+For any specific questions, please email us at: [info@substance.io](mailto:info@substance.io)
 
 
-
-For any specific questions, please email us at: [info@substance.io](mailto:info@substance.io)  
 Thank you,  
 Team Substance
