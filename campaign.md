@@ -5,7 +5,7 @@ permalink: /campaign/
 
 [Substance](http://substance.io) is a content creation tool and a dead simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content.
 
-The Substance eco-system is composed of an offline editing tool ( **The Substance Composer** ) and an online multi platform publishing platform ( **substance.io** )
+The Substance eco-system is composed of an offline editing tool ( **The Substance Composer** ) and an online multi platform publishing platform ( **Substance.io** )
 
 ## The Composer
 
@@ -31,8 +31,8 @@ We’ve been developing Substance for two years now without any funding, making 
 
 ## Return on Investment (what do i get?)
 
-Substance is designed to support your publishing workflow. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way... improve it, customize it and even making money with it!  
-By using our platform you can make your clients happy by improving their workflows, saving them time and money and increase revenue.  
+Substance is designed to support your publishing workflow. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way (improve it, customize it and sell it if you like to). By using our platform you can make your clients happy by improving their workflows, saving them time and money and increase revenue.
+
 And finally, all of our donators will be mentioned in a supporters page on the our website.
 
 ## Roadmap
@@ -57,7 +57,7 @@ At the core of the whole platform is the [Substance Document](http://interior.su
 
 ### Substance Surface
 
-Substance Surface is an in browser multi-line plain text editing control. It provides a low-level interface for general text manipulation, insertion, deletion et. al. and user-defined range based annotations. Surface exposes an API that will make it possible to build more complex text editors on top of it.  
+Substance Surface is an in browser multi-line plain text editing control. It provides a low-level interface for general text manipulation, insertion, deletion et. al. and user-defined range based annotations. Surface exposes an API that will make it possible to build more complex text editors on top of it.
 
 <img src="http://interior.substance.io/images/campaign/surface.png" width="100%" />
 
@@ -76,7 +76,7 @@ We'll be adding a plugin system for the Composer in order to make it easy for de
 ### Collaborative editing
 
 Our architecture is ready to support collaborative workflows, so documents can be edited by multiple users, even in realtime.
-
+ye 
 
 ## Who are we?
 
@@ -98,7 +98,7 @@ If we manage to exceed our goals with the campaign, all the money will still be 
 
 **How is it different from Google Docs?**
 
-Unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user. Because of the absence of formatting utilities, it suggests structured, content-oriented writing. The Substance Composer is available as Open Source and can be extended by the developer community. It's is intended to be a platform, not a product. We believe data ethics are important. With Substance your data is stored locally, unless you share it with the public or a selected number of people.
+Unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user. Because of the absence of formatting utilities, it suggests structured, content-oriented writing. The Substance Composer is available as Open Source and can be extended by the developer community. It's is intended to be a platform, not a product. Moreover, with Substance your data is stored locally, unless you share it with the public or a selected number of people.
 
 For any specific questions, please email us at: [info@substance.io](mailto:info@substance.io)
 
