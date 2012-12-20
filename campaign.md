@@ -13,7 +13,6 @@ The Substance eco-system is composed of an offline editing tool ( **The Substanc
 
 **The Substance Composer** is a desktop application (OSX and Linux first, Windows later), where you create and manage your documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that **content is data**. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone.
 
-*<sub>The Composer will be released under the Open Source MIT license.</sub>*
 
 ## Substance.io
 
@@ -45,7 +44,11 @@ Here's how our roadmap looks like.
 
 ## Open Source
 
-Behind the scenes the Substance is mainly composed by a stack of open source library that will be publicly available once we publicly release them.
+Behind the scenes the Substance is mainly composed by a stack of open source modules that will be publicly released under the Open Source MIT license. 
+
+### Substance Composer
+
+The Composer is built on top of web-technology but packaged and shipped as a native application. It can be customized easily by anyone who knows the web-development stack (HTML, CSS, Javascript). Besides having the building blocks available as open source libraries, you can at anytime mess with the code of the app itself.
 
 ### Substance Document
 
@@ -53,24 +56,24 @@ At the core of the whole platform is the [Substance Document](http://interior.su
 
 <img src="http://interior.substance.io/images/campaign/document.png" width="100%" />
 
-*<sub>Will be released under the Open Source MIT license.</sub>*
-
-###Substance Surface
+### Substance Surface
 
 Substance Surface is an in browser multi-line plain text editing control. It provides a low-level interface for general text manipulation, insertion, deletion et. al. and user-defined range based annotations. Surface exposes an API that will make it possible to build more complex text editors on top of it.  
 
 <img src="http://interior.substance.io/images/campaign/surface.png" width="100%" />
 
-*<sub>Will be released under the Open Source MIT license.</sub>*
-
 ## And then?
 
-This campaign is just a starting point. Once we have a stable foundation is when things will become really exciting.
+This campaign is just a starting point. Once we have a stable foundation is when things will become really exciting. Here are a some of our next priorities:
 
-Here are a few of our next priorities:
+### Plugin System
 
-* New content types (images, tables, lists ...)
-* Plugin system (Extend Substance, create your own content types)
+We'll be adding a plugin system for the Composer in order to make it easy for developers to create their own content types and share them with the Substance development community.
+
+### Collaborative editing
+
+Our design is ready
+
 * Collaborative editing and sharing of documents with a selected number of people.
 * Topic-related networks (Channels) for the Substance Hub so documents are easy to find.
    
