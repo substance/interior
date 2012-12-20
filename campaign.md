@@ -5,7 +5,7 @@ permalink: /campaign/
 
 [Substance](http://substance.io) is a content creation tool and a dead simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content.
 
-The Substance eco-system is composed of an offline editing tool ( **The Substance Composer** ) and an online multi platform publishing platform ( **Substance.io** )
+The new Substance eco-system consists of an offline editing tool (**The Substance Composer**) and an online multi-platform publishing system (**Substance.io**).
 
 ## The Composer
 
@@ -17,7 +17,7 @@ The Substance eco-system is composed of an offline editing tool ( **The Substanc
 
 <img src="http://interior.substance.io/images/campaign/hub.png" width="100%" />
 
-Anyone can create a free account in the **substance.io** server and start publishing their content online in one click straight from the composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people's public documents or export yours in any imaginable format (print, web, tablet, mobile and more).
+Anyone can create a free account on the **Substance.io** server and start publishing their content online in one click straight from the Composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people's public documents or export yours in any imaginable format (print, web, tablet, mobile and more).
 
 # We need your help
 
@@ -31,13 +31,13 @@ We’ve been developing Substance for two years now without any funding, making 
 
 ## What do I get?
 
-Substance is designed to support your publishing workflow. That's your return on investment. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way (customize it, improve it and sell it if you like to). By using our platform you can make your clients happy by improving their workflows, saving them time and money and increase revenue.
+Substance is designed to support your publishing workflow. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way (customize it, improve it and sell it if you like to). By using our platform you can make your clients happy by improving their workflows, saving them time and money and increase revenue.
 
 And finally, all of our donators will be mentioned in a supporters page on the our website.
 
 ## Roadmap
 
-Here's how our roadmap looks like.
+Here's how our roadmap looks like. We'll roll a first alpha release at the beginning of February, so people can have a first look at the complete system. After a second, more robust alpha we'll enter a two month beta phase at the beginning of June. The final release will land at the end of July.
 
 <img src="http://interior.substance.io/images/campaign/roadmap.png" width="100%" />
 
@@ -72,6 +72,10 @@ We'll be adding additional content types in future versions. Among them will be:
 ### Plugin System
 
 We'll be adding a plugin system for the Composer in order to make it easy for developers to create their own content types and share them with the Substance development community.
+
+### Multi-format export
+
+You'll be able to export documents to various formats (PDF, ePub, LaTeX, Markdown, MS Word, etc.).
 
 ### Collaborative editing
 
