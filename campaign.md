@@ -11,8 +11,7 @@ The Substance eco-system is composed of an offline editing tool ( **The Substanc
 
 <img src="http://interior.substance.io/images/campaign/substance.png" width="100%" />
 
-**The Substance Composer** is a desktop application (OSX and Linux first, Windows later), where you create and manage your documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that **content is data**. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone.
-
+**The Substance Composer** is a desktop application (OSX and Linux first, Windows later), where you create and manage digital documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that **content is data**. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone.
 
 ## Substance.io
 
@@ -66,18 +65,21 @@ Substance Surface is an in browser multi-line plain text editing control. It pro
 
 This campaign is just a starting point. Once we have a stable foundation is when things will become really exciting. Here are a some of our next priorities:
 
+### Additional content types
+
+We'll be adding additional content types in future versions. Among them will be: Lists, Tables, Videos and interactive maps.
+
 ### Plugin System
 
 We'll be adding a plugin system for the Composer in order to make it easy for developers to create their own content types and share them with the Substance development community.
 
 ### Collaborative editing
 
-Our design is ready
+Our architecture is ready to support collaborative workflows, so documents can be edited by multiple users, even in realtime.
 
-* Collaborative editing and sharing of documents with a selected number of people.
-* Topic-related networks (Channels) for the Substance Hub so documents are easy to find.
-   
+
 This basically means that if we manage to exceed our goals with the campaign, all the money will still be used for doing further work on Substance.
+   
 
 ## Who are we?
 
@@ -86,6 +88,13 @@ Our core team consists of three people: [Michael Aufreiter](http://github.com/mi
 
 
 We would also like to thank [Samo Korosec](http://dribbble.com/shots/158621-Rich-Text-Editor-Icons), [Tim Baumann](http://ot.substance.io) and [Remo Rauscher](http://vimeo.com/27730207) for their contributions.
+
+
+# Frequently asked questions
+
+**How is it different from Google Docs**
+
+Substance is different from google docs because we dont sell or give away your personal data. However unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user.
 
 For any specific questions, please email us at: [info@substance.io](mailto:info@substance.io)  
 Thank you,  
