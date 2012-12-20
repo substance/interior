@@ -5,12 +5,7 @@ permalink: /campaign/
 
 #SUBSTANCE
 
-[Substance](http://substance.io) is a content creation tool and a dead simple multi-format publishing platform.
-
-    // michael please choose one or merge the following sentences
-
-     1. Whether you produce magazines, books, newspapers, catalogs, brochures or annual reports, substance provides the tools that allow you to create, manage and share your content.
-     2. It provides you with a simple and elegant way to create, manage and share any type of publication.)
+[Substance](http://substance.io) is a content creation tool and a dead simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content.
 
 The Substance eco-system is composed of an offline editing tool ( **The Substance Editor** ) and an online multi platform publishing system ( **substance.io** )
 
