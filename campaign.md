@@ -77,9 +77,7 @@ We'll be adding a plugin system for the Composer in order to make it easy for de
 
 Our architecture is ready to support collaborative workflows, so documents can be edited by multiple users, even in realtime.
 
-
 This basically means that if we manage to exceed our goals with the campaign, all the money will still be used for doing further work on Substance.
-   
 
 ## Who are we?
 
@@ -94,7 +92,9 @@ We would also like to thank [Samo Korosec](http://dribbble.com/shots/158621-Rich
 
 **How is it different from Google Docs**
 
-Substance is different from google docs because we dont sell or give away your personal data. However unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user.
+Unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user. Because of the absence of formatting utilities, it suggests structured, content-oriented writing. The Substance Composer is available as Open Source and can be extended by the developer community. We believe data integrity is important. With Substance your data is stored locally, unless you share it with the public or a selected number of people.
+
+
 
 For any specific questions, please email us at: [info@substance.io](mailto:info@substance.io)  
 Thank you,  
