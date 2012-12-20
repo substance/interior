@@ -29,9 +29,9 @@ The goal of this campaign is to get Substance out of experimental state into a u
 
 We’ve been developing Substance for two years now without any funding, making this a project fully built out of voluntary effort. Being an open source project our whole platform is going to be free for every user, so there won't be any licence upon completion or any of the likes. The funds collected during this campaign are intended for the development of the platform. 
 
-## Return on Investment (what do i get?)
+## What do I get?
 
-Substance is designed to support your publishing workflow. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way (improve it, customize it and sell it if you like to). By using our platform you can make your clients happy by improving their workflows, saving them time and money and increase revenue.
+Substance is designed to support your publishing workflow. That's your return on investment. The software will be released under a liberal software license (MIT). That means that you can use the sofware in any way (customize it, improve it and sell it if you like to). By using our platform you can make your clients happy by improving their workflows, saving them time and money and increase revenue.
 
 And finally, all of our donators will be mentioned in a supporters page on the our website.
 
@@ -47,7 +47,7 @@ Behind the scenes the Substance is mainly composed by a stack of open source mod
 
 ### Substance Composer
 
-The Composer is built on top of web-technology but packaged and shipped as a native application. It can be customized easily by anyone who knows the web-development stack (HTML, CSS, Javascript). Besides having the building blocks available as open source libraries, you can at anytime mess with the code of the app itself.
+The Composer is built on top of web-technology but packaged and shipped as a native application using the modern webkit rendering engine. It can be customized easily by anyone who knows the web-development stack (HTML, CSS, Javascript). Besides having the building blocks available as open source libraries, you can at anytime mess with the code of the app itself.
 
 ### Substance Document
 
