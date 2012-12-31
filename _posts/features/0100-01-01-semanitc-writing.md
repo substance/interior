@@ -19,7 +19,7 @@ Traditional digital formats have always tried to imitate paper (think MS Word or
 
 # Structured composition
 
-Most often things work best when there are simple rules. This is why Substance cosiders documents a sequence of elements. That's it.
+Most often things work best when there are simple rules. This is why Substance sees documents as a sequence of elements. That's it.
 
 ![](/images/illustrations/semantic-writing-elements.png)
 
