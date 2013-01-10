@@ -32,4 +32,4 @@ The Hub has two main purposes:
 
 # Operational Transformation
 
-Instead of storing the content of a document, Substance stores all user operations (e.g. insert section, update image) since the creation of the document. By doing so, we can access the full evoluationary history of a and do time travels. Not only document content is versioned, also annotations and comments that stick on the content.
+Instead or in addition to storing the current state of the document, it advantageous to capture a sequence of operations that have been applied to the document. Instead of describing a document by its state (e.g. it has a section, followed by a paragraph) it can be described using a sequence of operations executed by the user (insert section, insert paragraph after section respectively). By doing so, the full evoluationary history of a document can be accessed and time travels are possible. Not only document content is versioned, also annotations and comments that stick on the content. Furthermore Operational Transformation forms the basis for collaborative editing features.
