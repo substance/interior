@@ -49,7 +49,10 @@ layout: default
         {% if page.links.download %}
           <a class="button" href="{{page.links.download}}" target="_blank">Download</a>
         {% endif %}
-        <a class="button" href="{{page.links.source}}" target="_blank">Source Code</a>
+        {% if page.links.source %}
+          <a class="button" href="{{page.links.source}}" target="_blank">Source Code</a>
+        {% endif %}
+        
       </div>
     </div>
   </div>
