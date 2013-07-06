@@ -100,10 +100,10 @@ prose:
       - name: "category"
         field:
           element: "text"
-          label: "Title"
+          label: "Category"
           value: ""
       - name: "layout"
         field:
           element: "text"
-          label: "Title"
+          label: "Layout"
           value: ""
