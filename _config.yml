@@ -1,13 +1,13 @@
 auto: true
 server: true
 permalink: none
-baseurl: ""
+baseurl: "http://integral.github.io/substance.github.com"
 exclude:
 - .gitignore
 - README.md
 prose:
   rooturl: '_posts'
-  siteurl: 'http://interior.substance.io'
+  siteurl: 'http://integral.github.io/substance.github.com'
   media: 'assets'
   metadata:
     _posts/features:
