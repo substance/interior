@@ -22,10 +22,10 @@ prose:
         field:
           element: "hidden"
           value: "feature"
-      - name: "version"
+      - name: "status"
         field:
           element: "text"
-          label: "Current version number"
+          label: "Status"
           value: ""
       - name: "author"
         field:
@@ -45,7 +45,7 @@ prose:
       - name: "abstract"
         field:
           element: "textarea"
-          label: "Module's abstract"
+          label: "Feature's abstract"
           value: ""
     _posts/modules:
       - name: "title"
