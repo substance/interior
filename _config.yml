@@ -1,9 +1,7 @@
 permalink: pretty
 markdown: rdiscount
-baseurl: /substance.github.com
-exclude:
-- .gitignore
-- README.md
+site:
+  baseurl: /substance
 prose:
   rooturl: "_posts"
   siteurl: "http://integral.github.io/substance.github.com/"
