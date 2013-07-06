@@ -91,3 +91,19 @@ prose:
           element: "textarea"
           label: "Module's abstract"
           value: ""
+    _posts/pages:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "category"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
