@@ -1,9 +1,9 @@
 permalink: pretty
 markdown: rdiscount
-baseurl: /substance.github.com
+baseurl: /substance-interior
 prose:
   rooturl: "_posts"
-  siteurl: "http://integral.github.io/substance.github.com/"
+  siteurl: "http://integral.github.io/substance-interior/"
   media: "assets"
   metadata:
     _posts/features:
