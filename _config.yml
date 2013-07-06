@@ -5,12 +5,12 @@ exclude:
 - .gitignore
 - README.md
 prose:
-  rooturl: "_posts"	
+  rooturl: "_posts"
   siteurl: "http://integral.github.io/substance.github.com/"
   media: "assets"
   metadata:
     _posts/features:
-    	- name: "category"
+      - name: "category"
         field:
           element: "hidden"
           value: "features"
@@ -50,7 +50,7 @@ prose:
           label: "Development progress"
           value: ""
       - name: "abstract"
-      	field:
+        field:
           element: "textarea"
           label: "Module's abstract"
           value: ""
