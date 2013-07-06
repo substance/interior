@@ -1,6 +1,7 @@
 ---
 layout: campaign
 permalink: /campaign/
+published: true
 ---
 
 [Substance](http://substance.io) is a content creation tool and a dead simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content.
