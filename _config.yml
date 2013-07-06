@@ -1,6 +1,6 @@
 permalink: pretty
 markdown: rdiscount
-baseurl: "/substance.github.com"
+baseurl: /substance.github.com
 exclude:
 - .gitignore
 - README.md
