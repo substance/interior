@@ -46,6 +46,7 @@ prose:
           label: "Author's twitter"
           value: ""
       - name: "prose_link"
+        field:
           element: "text"
           label: "Link to Prose editing"
           value: ""
