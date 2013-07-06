@@ -11,7 +11,7 @@ category: features
 published: true
 ---
 
-![Substance Architecture]({{site.baseurl}}/assets/images/illustrations/architecture.png)
+![Substance Architecture](/assets/images/illustrations/architecture.png)
 
 The architecture basically consists of two parts.
 
