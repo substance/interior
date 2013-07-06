@@ -1,14 +1,13 @@
-auto: true
-server: true
-permalink: none
+permalink: pretty
+markdown: rdiscount
 baseurl: "/substance.github.com"
 exclude:
 - .gitignore
 - README.md
 prose:
-  rooturl: '_posts'
-  siteurl: 'http://integral.github.io/substance.github.com/'
-  media: 'assets'
+  rooturl: "_posts"	
+  siteurl: "http://integral.github.io/substance.github.com/"
+  media: "assets"
   metadata:
     _posts/features:
     	- name: "category"
