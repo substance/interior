@@ -4,28 +4,35 @@
 <html>
 <head>
   <meta charset='UTF-8'/>
-  <title>Poole &middot; Serving Jekyll faithfully</title>
-  <link rel='shortcut icon' href='{{site.baseurl}}/images/favicon.ico' type='image/x-icon' />
-  <link rel='stylesheet' href='{{site.baseurl}}/fonts/open-sans.css'>
-  <link rel='stylesheet' href='{{site.baseurl}}/app.css'>
+  <title>Substance &middot; Towards open digital publishing</title>
+  <link rel='stylesheet' href='{{site.baseurl}}/fonts/open-sans.css'/>
+  <link rel='stylesheet' href='{{site.baseurl}}/app.css'/>
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="/javascripts/rainbow-custom.min.js"></script>
 </head>
 <body>
   <div id='container'>
-
-    <div id="header">
+    <!-- <div id="header">
       <div class="navigation">
-        <a href="{{site.baseurl}}" class="title">Prose Bootstrap</a>
+        <span class="subtitle">Towards open digital publishing.</span>
       </div>
-    </div>
+    </div> -->
 
     <div id='main'>{{content}}</div>
   </div>
 
   <div id='footer'>
     <div class="footer-content">
-      Made by <a href="http://developmentseed.org">Development Seed</a>, Source Code on <a href="http://github.com/prose/bootstrap">GitHub</a>
+      This open sourced site is hosted on <a href="http://github.com/substance/substance.github.com">GitHub</a>. Please help us to improve it!
     </div>
   </div>
-<a href="https://github.com/prose/bootstrap"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+
+  <script type="text/javascript">
+    var codeBlocks = document.querySelectorAll('code');
+    Array.prototype.forEach.call(codeBlocks, function iterator(block) {
+      block.setAttribute('data-language', 'javascript');
+    });
+    Rainbow.color();
+  </script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+<div id="menu">
+  <div class="inner">
+    <a class="title" href="/{{site.baseurl}}" class="title">Substance</a>
+    <a href="/"{% if page.url == '/' %} class="active"{% endif %}>Intro</a>
+    <a href="/features/"{% if page.url contains '/features/' %} class="active"{% endif %}>Features</a>
+    <a href="/modules/"{% if page.url contains '/modules/' %} class="active"{% endif %}>Modules</a>
+    <!--<a href="/contribute/"{% if page.url contains '/contribute/' %} class="active"{% endif %}>Contribute</a>-->
+    <a href="/team/"{% if page.url contains '/team/' %} class="active"{% endif %}>Team</a>
+  </div>
+</div>

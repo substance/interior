@@ -1,26 +1,218 @@
 ---
 layout: default
+permalink: /
 ---
 
-<div class="article-navigation">
-  {% for item in site.categories.articles limit:40 offset:0 %}
-    <a class="article-link" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-      
-    </a>
-  {% endfor %}
+<div class="start">
+  {% include menu.html %}
+  <div class="plot">
+    <p>
+      Substance is an <strong>open</strong> platform for <strong>collaborative</strong> composition and <strong>sharing</strong> of <strong>digital</strong> documents.
+    </p>
+    <p class="smaller">
+      Substance is free to use and <a href="http://github.com/substance">Open Source</a>.
+    </p>
+  </div>
 </div>
 
-{% for item in site.categories.articles limit:1 offset:0 %}
-  <div class="intro">
-    <div class="title">{{item.title}}</div>
-    <div class="abstract">{{item.abstract}}</div>
-    <div class="meta"> Posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </div>
-  </div>
 
-  <div class="article-wrapper">
-    <div class="help post-content">
-      {{ item.content }}
+<div class="demo">
+  <div class="content">
+    <h1>What does it look like?</h1>
+
+    <p class="answer">
+      This is how the Substance Composer looks for the user.
+    </p>
+
+    <div>
+      <a href="/modules/composer.html"><img src="/images/substance.png"></a>
+      <br/><br/><br/>
+    </div>
+    <p class="answer">
+      Please keep in mind Substance is a work in progress and it takes some more time to provide a solid release. However, if you can't wait and are running Mac OSX Mountain Lion, you can download this <a href="/downloads/Substance.zip">early preview</a>.<br/>
+    </p>
+
+    <!--<a class="button" href="http://substance.io/explore">Try the demo</a>-->
+  </div>
+</div>
+
+
+<div class="content">
+  <h1>Why should I care?</h1>
+  <p class="answer">
+    Substance provides a flexible architecture, involving an <a href="/modules/document.html">extensible document format</a> and protocol, <a href="/features/collaboration.html">collaborative features</a> and an extensible <a href="/modules/composer.html">editor</a>.
+  </p>
+</div>
+
+<div class="substance-features">
+  <div class="feature">
+    <img src="/images/semantic-editing.png" width="250" height="120"/>
+    <div class="description">
+      <h2>Semantic Editing</h2>
+      <p>
+        Unlike traditional word-processors, Substance focuses on <b>content</b>, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests <b>structured</b>, <b>content-oriented</b> writing.
+      </p>
     </div>
   </div>
-{% endfor %}
+  <div class="feature">
+    <img src="/images/content-is-data.png" width="250" height="120"/>
+    <div class="description">
+      <h2>Content is data</h2>
+      <p>
+        Substance considers content as <b>data</b>, which allows digital documents to be queried like a database. Thus processing digital documents is no longer painful.
+      </p>
+    </div>
+  </div>
+  <div class="feature">
+    <img src="/images/collaboration.png" width="250" height="120"/>
+    <div class="description">
+      <h2>Collaboration</h2>
+      <p>
+        Substance allows open <a href="/features/collaboration.html">collaboration</a>. Every reader can be a potential contributor by making suggestions to the document.
+      </p>
+    </div>
+  </div>
+  <div class="feature">
+    <img src="/images/modular.png" width="250" height="120"/>
+    <div class="description">
+      <h2>Modular</h2>
+      <p>
+        Substance conists of several <a href="/modules">modules</a> that are developed independently and can be used on its own.
+      </p>
+    </div>
+  </div>
+  <div class="feature">
+    <img src="/images/extensible.png" width="250" height="120"/>  
+    <div class="description">
+      <h2>Extensible</h2>
+      <p>
+        Documents are exposed as data, ready to be analyzed, visualized, exported (PDF, ePub, etc.) or integrated with other applications. Additional content types (formulas, maps, etc.) can easily be added by the community.
+      </p>
+    </div>
+  </div>
+    <div class="feature">
+    <img src="/images/everywhere.png" width="250" height="120"/>
+    <div class="description">
+      <h2>Runs everywhere</h2>
+      <p>
+        Substance can be deployed easily. We are working on a <a href="/features/distributed.html">distributed architecture</a> that allows you to run Substance on your own computer and let it talk to other Substance nodes in a peer to peer fashion.
+      </p>
+    </div>
+  </div>
+</div>
 
+<!--<div class="darker">
+  <div class="content">
+    <h1>Who is it for?</h1>
+    <p class="answer">
+      Everyone. But in particular Substance targets journalists, writers and scientists.
+    </p>
+  </div>
+</div>-->
+
+
+<div class="darker">
+  <div class="content">
+    <h1>How can I help?</h1>
+
+    <p class="answer">
+      <!--Substance has been around since late 2010, built and used by passionate open source developers all around the world. There was no funding involved so far. We’ll continue improving it, making it an open standard for interoperable digital publishing. Support us!-->
+
+      We’ve been developing Substance for two years now without any funding, making this a project fully built out of voluntary effort. Our goal is making Substance an open standard for interoperable digital publishing. Help us!
+    </p>
+  </div>
+
+  <div class="substance-features">
+    <div class="feature">
+      <img src="/images/get-involved.png" width="250" height="120"/>
+      <div class="description">
+        <h2>Get involved</h2>
+        <p>
+          You can report bugs and discuss features on <a href="http://github.com/substance">GitHub</a>, on Freenode in the <strong><code>#_substance</code></strong> channel, or send tweets to <a href="http://twitter.com/_substance">@_substance</a>.
+        </p>
+        <p>
+          And if that's not enough, post to our <a href="https://groups.google.com/forum/?fromgroups#!forum/substance_">mailing list</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="campaign">
+      <img src="/images/campaign.png" width="520" height="120"/>
+      <div class="description">
+        <h2>Help us make it solid</h2>
+        <p>
+           We just realized the more concrete our goals get, the more we see the need to spend dedicated time on development, in order to come to the day when we can say "It’s finally here!". Please help us by supporting our <a href="http://www.pledgie.com/campaigns/18902">campaign</a> and spread the word about it.
+
+          <br/><br/><a href='http://www.pledgie.com/campaigns/18902'><img alt='Click here to lend your support to: Substance and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/18902.png?skin_name=chrome' border='0' /></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<div class="content">
+  <h1>When will it be ready?</h1>
+  <p class="answer">
+    The current release is 0.4.1. Our next major release, 0.5.0 will feature a compeletely new architecture and will land in July 2013 according to our <a href="http://pledgie.com/campaigns/18902">roadmap</a>. Until then, try the <a href="http://substance.io/explore">old prototype</a> or integrate one of our <a href="/modules">modules</a> with your project.
+  </p>
+  <div class="progress-bar">
+    <div class="progress done">0.1.0</div>
+    <div class="progress done">0.2.0</div>
+    <div class="progress done">0.3.0</div>
+    <div class="progress done">0.4.0</div>
+    <div class="progress">0.5.0</div>
+    <div class="progress">0.6.0</div>
+    <div class="progress">0.7.0</div>
+    <div class="progress">0.8.0</div>
+    <div class="progress">0.9.0</div>
+    <div class="progress">1.0</div>
+  </div>
+  <div class="progress-marker">
+    We are here.
+    <div class="arrow-up"></div>
+  </div>
+  <p class="answer">
+    In the meanwhile, if you're looking for a reliable minimal writing environment, we recommend using <a href="http://prose.io">Prose</a>, a content editor for GitHub that is optimized for editing Markdown.
+  </p>
+</div>
+-->
+
+
+
+
+<!--<div class="content">
+  <h1>Thanks!</h1>
+  <p class="answer">
+    We'd like to thank our <a href="https://github.com/substance/substance/graphs/contributors">contributors</a> and sponsors who make this project possible.
+  </p>
+
+  <div class="substance-features">
+    <div class="feature">
+      <img src="/images/semantic-editing.png" width="250" height="120"/>
+      <div class="description">
+        <h2>Simplicissimus Book Farm SRL</h2>
+        <p>
+          Simplicismuss is sponsoring Substance development, as they want to integrate it with their eBook distribution services.
+        </p>
+      </div>
+    </div>
+    <div class="feature">
+      <img src="/images/content-is-data.png" width="250" height="120"/>
+      <div class="description">
+        <h2>Lucid Technics</h2>
+        <p>
+          Lucid Technics are evaluating use-cases 
+        </p>
+      </div>
+    </div>
+    <div class="feature">
+      <img src="/images/collaboration.png" width="250" height="120"/>
+      <div class="description">
+        <h2>Your Sponsorship</h2>
+        <p>
+          Substance allows open <a href="/features/realtime-collaboration.html">collaboration</a>. Every reader can be a potential contributor by making suggestions to the document.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>-->

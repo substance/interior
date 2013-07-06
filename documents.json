@@ -1,0 +1,33 @@
+---
+---
+
+var documents_fixture = {
+  "properties": {
+    "title": {
+      "name": "Document Title",
+      "type": "string",
+      "unique": true
+    },
+
+    "abstract": {
+      "name": "Abstract",
+      "type": "string",
+      "unique": true
+    },
+
+    "contributors": {
+      "name": "Contributors",
+      "type": "string",
+      "unique": false,
+      "meta": {
+        "facet": true
+      }
+    }
+  },
+
+  "items": {
+    {% for item in site.categories.modules %}
+      "{{item.title}}": {% include document.json %},
+    {% endfor %}
+  }
+}

@@ -1,0 +1,7 @@
+
+{
+  "title": "{{item.title|replace:'"','\"'}}",
+  "abstract": "{{item.abstract|replace:'"','\"'}}",
+  "category":"{{item.category}}",
+  "contributors": [{% for c in item.contributors %}"{{c.user}}",{% endfor %}"foo"]
+}

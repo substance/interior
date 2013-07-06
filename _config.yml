@@ -5,16 +5,53 @@ baseurl: ""
 exclude:
 - .gitignore
 - README.md
-
 prose:
-  rooturl: "_posts"
-  metadata: 
-    _posts/articles:
-      published: false
-      layout: article
-      title: Your Post Title
-      abstract: Short summary of your article.
-      author_twitter: johndoe
-      author: John Doe
-      categories:
-      - articles
+  rooturl: '_posts'
+  siteurl: 'http://interior.substance.io'
+  media: 'assets'
+  metadata:
+    _posts/features:
+    	- name: "category"
+        field:
+          element: "hidden"
+          value: "features"
+    _posts/modules:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "modules"
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "module"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "author_twitter"
+        field:
+          element: "text"
+          label: "Author's twitter"
+          value: ""
+      - name: "version"
+        field:
+          element: "number"
+          label: "Current version number"
+          value: ""
+      - name: "progress"
+        field:
+          element: "number"
+          label: "Development progress"
+          value: ""
+      - name: "abstract"
+      	field:
+          element: "textarea"
+          label: "Module's abstract"
+          value: ""
