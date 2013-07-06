@@ -12,15 +12,15 @@ published: true
 
 Consider the following document:
 
-![](/assets/images/illustrations/collaboration-1.png)
+![]({{site.baseurl}}/assets/images/illustrations/collaboration-1.png)
 
 Wouldn't it be nice to just express your feelings right away?
 
-![](/assets/images/illustrations/collaboration-2.png)
+![]({{site.baseurl}}/assets/images/illustrations/collaboration-2.png)
 
 Substance offers inline annotations (markers) as well as comments to allow exactly that.
 
-![](/assets/images/illustrations/collaboration-3.png)
+![]({{site.baseurl}}/assets/images/illustrations/collaboration-3.png)
 
 # Eventually consistent
 
