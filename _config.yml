@@ -23,7 +23,7 @@ prose:
           value: "modules"
       - name: "layout"
         field:
-          element: "text"
+          element: "hidden"
           value: "module"
       - name: "version"
         field:
