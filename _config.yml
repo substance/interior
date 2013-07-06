@@ -9,10 +9,44 @@ prose:
   media: "assets"
   metadata:
     _posts/features:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
       - name: "category"
         field:
           element: "hidden"
           value: "features"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "feature"
+      - name: "version"
+        field:
+          element: "text"
+          label: "Current version number"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "author_twitter"
+        field:
+          element: "text"
+          label: "Author's twitter"
+          value: ""
+      - name: "prose_link"
+        field:
+          element: "text"
+          label: "Link to Prose editing"
+          value: ""
+      - name: "abstract"
+        field:
+          element: "textarea"
+          label: "Module's abstract"
+          value: ""
     _posts/modules:
       - name: "title"
         field:

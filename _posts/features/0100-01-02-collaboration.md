@@ -6,8 +6,7 @@ prose_link:
   http://prose.io/#substance/substance.github.com/edit/master/_posts/features/0100-01-02-collaboration.md
 author_twitter: _mql
 author: Michael Aufreiter
-categories:
-- features
+category: features
 published: true
 ---
 
