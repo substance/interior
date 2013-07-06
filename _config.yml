@@ -12,28 +12,19 @@ prose:
           element: "hidden"
           value: "features"
     _posts/modules:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
       - name: "category"
         field:
           element: "hidden"
           value: "modules"
       - name: "layout"
         field:
-          element: "hidden"
+          element: "text"
+          label: "Layout"
           value: "module"
-      - name: "version"
+      - name: "title"
         field:
-          element: "number"
-          label: "Current version number"
-          value: ""
-      - name: "progress"
-        field:
-          element: "number"
-          label: "Development progress"
+          element: "text"
+          label: "Title"
           value: ""
       - name: "author"
         field:
@@ -45,10 +36,15 @@ prose:
           element: "text"
           label: "Author's twitter"
           value: ""
-      - name: "prose_link"
+      - name: "version"
         field:
-          element: "text"
-          label: "Link to Prose editing"
+          element: "number"
+          label: "Current version number"
+          value: ""
+      - name: "progress"
+        field:
+          element: "number"
+          label: "Development progress"
           value: ""
       - name: "abstract"
         field:
