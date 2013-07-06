@@ -1,4 +1,6 @@
-permalink: pretty
+auto: true
+server: true
+permalink: none
 markdown: rdiscount
 baseurl: /substance-interior
 prose:
