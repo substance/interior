@@ -29,7 +29,7 @@ prose:
           value: "module"
       - name: "version"
         field:
-          element: "number"
+          element: "text"
           label: "Current version number"
           value: ""
       - name: "progress"
