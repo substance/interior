@@ -6,22 +6,21 @@ prose_link:
   http://prose.io/#substance/substance.github.com/edit/master/_posts/features/0100-01-02-collaboration.md
 author_twitter: _mql
 author: Michael Aufreiter
-categories:
-- features
+category: features
 published: true
 ---
 
 Consider the following document:
 
-![](/images/illustrations/collaboration-1.png)
+![]({{site.baseurl}}/assets/images/illustrations/collaboration-1.png)
 
 Wouldn't it be nice to just express your feelings right away?
 
-![](/images/illustrations/collaboration-2.png)
+![]({{site.baseurl}}/assets/images/illustrations/collaboration-2.png)
 
 Substance offers inline annotations (markers) as well as comments to allow exactly that.
 
-![](/images/illustrations/collaboration-3.png)
+![]({{site.baseurl}}/assets/images/illustrations/collaboration-3.png)
 
 # Eventually consistent
 
