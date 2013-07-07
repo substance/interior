@@ -2,10 +2,10 @@ auto: true
 server: true
 permalink: none
 markdown: rdiscount
-baseurl: /substance-interior
+baseurl: ''
 prose:
   rooturl: "_posts"
-  siteurl: "http://integral.github.io/substance-interior/"
+  siteurl: "http://interior.substance.io/"
   media: "assets/images"
   metadata:
     _posts/features:
