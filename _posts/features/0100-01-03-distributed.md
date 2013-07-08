@@ -7,12 +7,11 @@ prose_link:
 author_twitter: _mql
 author: Michael Aufreiter
 status: Work in progress
-categories:
-- features
+category: features
 published: true
 ---
 
-![Substance Architecture](/images/illustrations/architecture.png)
+![Substance Architecture]({{site.baseurl}}/assets/images/illustrations/architecture.png)
 
 The architecture basically consists of two parts.
 

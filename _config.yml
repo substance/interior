@@ -1,7 +1,109 @@
 auto: true
 server: true
 permalink: none
-baseurl: ""
-exclude:
-- .gitignore
-- README.md
+markdown: rdiscount
+baseurl: ''
+prose:
+  rooturl: "_posts"
+  siteurl: "http://interior.substance.io/"
+  media: "assets/images"
+  metadata:
+    _posts/features:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "features"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "feature"
+      - name: "status"
+        field:
+          element: "text"
+          label: "Status"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "author_twitter"
+        field:
+          element: "text"
+          label: "Author's twitter"
+          value: ""
+      - name: "prose_link"
+        field:
+          element: "text"
+          label: "Link to Prose editing"
+          value: ""
+      - name: "abstract"
+        field:
+          element: "textarea"
+          label: "Feature's abstract"
+          value: ""
+    _posts/modules:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "modules"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "module"
+      - name: "version"
+        field:
+          element: "text"
+          label: "Current version number"
+          value: ""
+      - name: "progress"
+        field:
+          element: "number"
+          label: "Development progress"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "author_twitter"
+        field:
+          element: "text"
+          label: "Author's twitter"
+          value: ""
+      - name: "prose_link"
+        field:
+          element: "text"
+          label: "Link to Prose editing"
+          value: ""
+      - name: "abstract"
+        field:
+          element: "textarea"
+          label: "Module's abstract"
+          value: ""
+    _posts/pages:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "category"
+        field:
+          element: "text"
+          label: "Category"
+          value: ""
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: ""

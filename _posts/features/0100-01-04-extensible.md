@@ -8,8 +8,7 @@ prose_link:
 author_twitter: _mql
 author: Michael Aufreiter
 status: Work in progress
-categories:
-- features
+category: features
 ---
 
 
