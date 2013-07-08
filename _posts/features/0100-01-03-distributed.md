@@ -15,9 +15,9 @@ published: true
 
 The architecture basically consists of two parts.
 
-# The Composer
+# The Substance App
 
-The Substance Composer can be installed on your computer as a native application. It doesn't even need an internet connection to create documents. When it comes to collaborative editing and sharing your documents, you will need to connect your application to a [Substance Hub](/modules/hub) like [Substance.io](http://substance.io).
+The Substance App can be installed on your computer as a native application but also runs in modern web-browsers. It doesn't even need an internet connection to create documents locally. When it comes to collaborative editing and sharing your documents, you will need to connect your application to a hub like [Substance.io](http://substance.io).
 
 
 # The Hub
