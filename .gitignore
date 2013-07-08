@@ -49,3 +49,4 @@ _site/fonts/OpenSans-SemiboldItalic-webfont.svg
 _site/fonts/OpenSans-SemiboldItalic-webfont.ttf
 _site/fonts/OpenSans-SemiboldItalic-webfont.woff
 _site/index.html
+*.log
