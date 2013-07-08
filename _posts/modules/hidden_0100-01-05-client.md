@@ -11,7 +11,7 @@ prose_link: "http://prose.io/#substance/substance.github.com/edit/master/_posts/
 abstract: Interact with Substance programatically.
 links: 
   source: "http://github.com/substance/client"
-contributors: 
+  contributors: 
   - name: Michael Aufreiter
     user: michael
     avatar: "https://secure.gravatar.com/avatar/d5a959d7e57daa5433fcb9f8da40be4b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
