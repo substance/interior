@@ -64,17 +64,17 @@ Basically it is necessary to define some kind of `Change` type and an adapter th
 		this.reset = function() {}
 	};
 
-The difficult part is to specify `Change` types that are invertible and transformable. Substance.Operator comes in here and provides you with basic operations for text, arrays, and objects.
+The difficult part is to specify `Change` types that are invertible and transformable. Here, Substance.Operator comes in providing basic operations for text, arrays, and objects.
 
 Having your adapter you can begin chronicling using
 
     var chronicle = Chronicle.create();
     chronicle.manage(yourAdapter);
     
-To get things recorded you need to tell the Chronicle:
+To get things recorded you need to tell the Chronicle to do so:
 
     chronicle.record(someChange);
 
 
-Until we have proper documentation, please see the [testsuite](https://github.com/substance/chronicle/tree/master/tests) for usage examples.
+For more sophisticated examples see the [testsuite](https://github.com/substance/chronicle/tree/master/tests).
 
