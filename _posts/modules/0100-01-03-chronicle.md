@@ -25,6 +25,12 @@ Substance.Chronicle is a git-inspired versioning API based on Operational Transf
 
 Consider a simple collaborative editing session of John and Jane.
 
+
+<iframe width="800" height="250" frameborder="0" scrolling="no" src="http://interior.substance.io/chronicle/">
+</iframe>
+
+
+
 John starts writing a text (Commit `John - 1`).
 
     Hsta la vista.
@@ -77,4 +83,3 @@ To get things recorded you need to tell the Chronicle to do so:
 
 
 For more sophisticated examples see the [testsuite](https://github.com/substance/chronicle/tree/master/tests).
-
