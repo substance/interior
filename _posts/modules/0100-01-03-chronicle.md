@@ -54,7 +54,7 @@ Substance.Chronicle can be considered a low-level API. Some integration and glue
 
 Installation is easy.
 
-	npm install substance-chronicle
+	$ npm install substance-chronicle
     
 In your Node.js script:
 
