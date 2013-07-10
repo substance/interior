@@ -30,7 +30,6 @@ Consider a simple collaborative editing session of John and Jane.
 </iframe>
 
 
-
 John starts writing a text (Commit `John - 1`).
 
     Hsta la vista.
@@ -52,6 +51,14 @@ Substance.Chronicle allows to view versions and resolve more complex version dev
 ## Getting Really Started
 
 Substance.Chronicle can be considered a low-level API. Some integration and glueing is necessary to get things moving.
+
+Installation is easy.
+
+	npm install substance-chronicle
+    
+In your Node.js script:
+
+	var Chronicle = require('substance-chronicle');
 
 Basically it is necessary to define some kind of `Change` type and an adapter that can deal with that:
 
