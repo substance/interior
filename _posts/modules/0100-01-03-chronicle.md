@@ -12,7 +12,7 @@ links:
   source: "http://github.com/substance/chronicle"
 contributors: 
   - name: Oliver Buchtala
-    user: oliver
+    user: "oliver----"
     avatar: /assets/images/team/oliver.png
   - name: Michael Aufreiter
     user: michael
