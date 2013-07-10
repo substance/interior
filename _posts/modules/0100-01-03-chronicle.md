@@ -19,7 +19,7 @@ contributors:
     avatar: "https://secure.gravatar.com/avatar/d5a959d7e57daa5433fcb9f8da40be4b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
 ---
 
-Substance.Chronicle is a git-inspired versioning API based on Operational Transformations (OT). The actual content to be versioned or a persistence mechanism is not addressed in this module. Instead one would create an adapter which is implementing an OT interface.
+Substance.Chronicle is a git-inspired versioning API based on [Operational Transformations](http://interior.substance.io/modules/operator.html). The actual content to be versioned or a persistence mechanism is not addressed in this module. Instead one would create an adapter which is implementing an OT interface.
 
 ## Getting Started
 
@@ -80,6 +80,5 @@ Having your adapter you can begin chronicling using
 To get things recorded you need to tell the Chronicle to do so:
 
     chronicle.record(someChange);
-
 
 For more sophisticated examples see the [testsuite](https://github.com/substance/chronicle/tree/master/tests).
